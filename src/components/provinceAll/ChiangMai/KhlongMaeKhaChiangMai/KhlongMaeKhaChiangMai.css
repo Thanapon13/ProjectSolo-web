@@ -1,0 +1,41 @@
+.container-all-KhlongMaeKhaChiangMai {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-all-KhlongMaeKhaChiangMai {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-KhlongMaeKhaChiangMai {
+  width: 80%;
+}
+.KhlongMaeKhaChiangMai-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.KhlongMaeKhaChiangMai-picture {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+
+.KhlongMaeKhaChiangMai-location {
+  margin-right: 710px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

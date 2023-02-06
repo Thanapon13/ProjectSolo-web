@@ -1,0 +1,149 @@
+.container-all {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.province-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid silver;
+}
+.container-content {
+  width: 20%;
+  padding: 10px;
+  margin-left: 50px;
+}
+.content-province {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.content-province h1 {
+  font-size: 1.5rem;
+}
+.container-content .btn-all {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: #0071e3;
+  margin-top: 20px;
+}
+.container-content .btn-all:hover {
+  background-color: #0169d1;
+}
+.container-content .btn-all i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #fff;
+  color: #0071e3;
+  border-radius: 10px;
+}
+.container-content .btn-all p {
+  color: #fff;
+  font-size: 20px;
+}
+.container-card {
+  width: 70%;
+}
+
+/* community */
+.community-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.community-container-cardpost {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-post {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.card-post:hover {
+  background-color: rgb(219, 219, 219);
+  border: none;
+}
+.nameprofile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px;
+}
+.nameprofile img {
+  width: 50px;
+}
+.card-post .imagepost img {
+  width: 400px;
+}
+
+.bottomcontent .postcontent {
+  margin-top: 20px;
+}
+.bottomcontent .posticon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottomcontent .posticon i {
+  font-size: 30px;
+}
+.bottomcontent .posticon i:hover {
+  color: #0071e3;
+}
+.contaoner-btn-post {
+  margin: auto;
+}
+.btn-post {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: #0071e3;
+  margin-top: 20px;
+}
+.btn-post:hover {
+  background-color: #0169d1;
+}
+.btn-post i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #fff;
+  color: #0071e3;
+  border-radius: 10px;
+}
+.btn-post p {
+  color: #fff;
+  font-size: 20px;
+}

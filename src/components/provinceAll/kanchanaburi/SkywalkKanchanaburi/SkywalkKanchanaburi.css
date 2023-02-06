@@ -1,0 +1,31 @@
+.container-all-SkywalkKanchanaburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-SkywalkKanchanaburi {
+  width: 80%;
+}
+.SkywalkKanchanaburi-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.SkywalkKanchanaburi-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.context {
+  margin-right: 710px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,36 @@
+.container-provincepage {
+  width: 100%;
+  margin-top: 220px;
+}
+.container-provincepage h1 {
+  text-align: center;
+}
+.card-continer-provincepage {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-provincepage {
+  width: 300px;
+  height: 2 00px;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: 1px solid silver;
+}
+.card-provincepage:hover {
+  background-color: rgb(235, 235, 235);
+}
+.card-provincepage img {
+  width: 300px;
+  z-index: -10;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-provincepage h1 {
+  font-size: 1.5rem;
+}

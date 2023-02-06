@@ -1,0 +1,41 @@
+.container-all-KingPowerMahanakhon {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-all-KingPowerMahanakhon {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-KingPowerMahanakhon {
+  width: 80%;
+}
+.KingPowerMahanakhon-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.KingPowerMahanakhon-picture {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+
+.KingPowerMahanakhon-location {
+  margin-right: 710px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

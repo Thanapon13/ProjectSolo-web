@@ -1,0 +1,40 @@
+.container-reviewPage {
+  width: 100%;
+  margin-top: 220px;
+}
+.container-reviewPage h1 {
+  text-align: center;
+}
+.card-continer-reviewPage {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-reviewPage {
+  width: 300px;
+  height: 2 00px;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: 1px solid silver;
+}
+.card-reviewPage h1 {
+  padding: 10px;
+}
+.card-reviewPage:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.card-reviewPage img {
+  width: 300px;
+  z-index: -10;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-reviewPage h1 {
+  font-size: 1.2rem;
+}

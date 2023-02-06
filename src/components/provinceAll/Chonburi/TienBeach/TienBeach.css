@@ -1,0 +1,55 @@
+.container-all-TienBeachChonburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-all-TienBeachChonburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-TienBeachChonburi {
+  width: 80%;
+}
+.TienBeachChonburi-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.TienBeachChonburi-picture {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+.TienBeachChonburi-picture-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+.ienBeachChonburi-top-p {
+  margin-bottom: 10px;
+}
+.TienBeachChonburi-picture-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.TienBeachChonburi-location {
+  margin-right: 710px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

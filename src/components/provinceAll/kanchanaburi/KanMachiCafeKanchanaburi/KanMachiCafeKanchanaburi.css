@@ -1,0 +1,33 @@
+.container-all-KanMachiCafeKanchanaburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-KanMachiCafeKanchanaburi {
+  width: 80%;
+}
+.KanMachiCafeKanchanaburi-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.KanMachiCafeKanchanaburi-picture {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.KanMachiCafeKanchanaburi-location {
+  margin-right: 710px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.KanMachiCafeKanchanaburi-location span {
+  color: red;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: #0071e3;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  color: black;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: rgb(227, 227, 227);
+}
+.card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-top h1 {
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.card-top > img {
+  width: 100%;
+  object-fit: cover;
+}

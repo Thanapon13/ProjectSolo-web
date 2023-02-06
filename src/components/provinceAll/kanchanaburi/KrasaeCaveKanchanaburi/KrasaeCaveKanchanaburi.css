@@ -1,0 +1,43 @@
+.container-all-KrasaeCaveKanchanaburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-all-KrasaeCaveKanchanaburi {
+  margin-top: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-KrasaeCaveKanchanaburi {
+  width: 80%;
+}
+.KrasaeCaveKanchanaburi-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.KrasaeCaveKanchanaburi-picture {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid black;
+}
+.KrasaeCaveKanchanaburi-location {
+  margin-right: 710px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.KrasaeCaveKanchanaburi-location span {
+  color: red;
+}
