@@ -1,0 +1,74 @@
+/* .container-postcomplete {
+
+} */
+.container-postcomplete {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+  background-color: #e4e4e4;
+  padding: 30px;
+}
+.card-postcomplete {
+  width: 544px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.card-postcomplete-top {
+  display: flex;
+  gap: 5px;
+}
+.card-postcomplete-top i {
+  font-size: 35px;
+  cursor: pointer;
+}
+.card-postcomplete-top form {
+  display: flex;
+  margin-left: 10px;
+}
+
+.card-postcomplete-pieture-center {
+  text-align: center;
+}
+.card-postcomplete-pieture-center img {
+  width: 500px;
+  margin-top: 10px;
+}
+.card-postcomplete-icon {
+  margin-top: 10px;
+  display: flex;
+  gap: 100px;
+  border-bottom: 1px solid silver;
+}
+.card-postcomplete-icon i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.card-postcomplete-pieture-center i {
+  font-size: 350px;
+}
+
+.card-postcomplete-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.icon-postcomplete-bottom {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+.card-postcomplete-bottom input {
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+.card-postcomplete-bottom input:focus {
+  border: 1px solid silver;
+  border-radius: 16px;
+}

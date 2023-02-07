@@ -20,6 +20,7 @@ import ThaPhaeGateChiangMai from "./components/provinceAll/ChiangMai/ThaPhaeGate
 import ReviewPage from "./components/ReviewPage/reviewPage";
 import Footer from "./components/Footer/footer";
 import CommunityPage from "./components/CommunityPage/communityPage.js";
+import ShoppingPage from "./components/shoppingPage/shoppingPage/shoppingPage";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -116,6 +117,7 @@ function App() {
 
             <Route path="/reviewPage" element={<ReviewPage />} />
             <Route path="/communityPage" element={<CommunityPage />} />
+            <Route path="/shoppingPage" element={<ShoppingPage />} />
           </Routes>
         </Router>
       </div>

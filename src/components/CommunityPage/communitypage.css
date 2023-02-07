@@ -1,3 +1,116 @@
 .container-communitypage {
-  margin-top: 196px;
+  background-color: rebeccapurple;
+}
+.container-startPost {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+  background-color: #e4e4e4;
+  padding: 30px;
+}
+.card-startPost {
+  width: 544px;
+  height: 106px;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.card-startPost-top {
+  display: flex;
+}
+.card-startPost-top i {
+  font-size: 35px;
+  cursor: pointer;
+}
+.card-startPost-top form {
+  display: flex;
+  margin-left: 10px;
+}
+.card-startPost-top form input {
+  width: 300px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+}
+.card-startPost-top form input:focus {
+  border: 1px solid silver;
+  border-radius: 16px;
+}
+
+.card-startPost-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.icon-startPost-bottom {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+.icon-startPost-bottom i {
+  font-size: 25px;
+  cursor: pointer;
+}
+.btn-startPost {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  padding: 5px 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-startPost:hover {
+  background-color: #1568d3;
+  color: #ffffff;
+}
+
+/* Modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-community {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-posted {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
 }

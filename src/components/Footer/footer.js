@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="container-footer">
       <footer>
-        <p>© 2022 ไปด้วยมายเฟรนด์ By HARUKA SENPAI</p>
+        <p>© 2023 ไปด้วยมายเฟรนด์ By HARUKA SENPAI</p>
         <div className="footer-icon">
           <a href="https://www.facebook.com/PDMFF">
             <BsFacebook />

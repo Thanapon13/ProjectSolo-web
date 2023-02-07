@@ -29,8 +29,13 @@ function Header() {
               <li>Recommended Attractions</li>
             </a>
 
-            <a href="/communityPage"><li>Community</li></a>
-            <li>Shop</li>
+            <a href="/communityPage">
+              <li>Community</li>
+            </a>
+
+            <a href="/shoppingPage">
+              <li>Shop</li>
+            </a>
           </ul>
         </nav>
         <div className="nav-icon">

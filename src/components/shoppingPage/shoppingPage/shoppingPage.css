@@ -1,0 +1,75 @@
+.container-all-shopping-page {
+  margin-top: 200px;
+}
+
+/* navbar-shopping  */
+
+.navbar-shopping ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.navbar-shopping ul li {
+  background-color: #c4deff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: #5a5b6a;
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar-shopping ul li:hover {
+  background-color: #589bf2;
+  color: black;
+}
+
+/* container-all-shopcard  tshirtshop  */
+.container-all-shopping {
+  margin-top: 200px;
+}
+.container-all-shopcard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin: 20px;
+}
+.card-shop {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.card-shop .top-picture img {
+  width: 150px;
+}
+.center-content h2 {
+  font-size: 1.4rem;
+}
+.bottom-buttom {
+  padding: 20px;
+}
+.bottom-buttom .btn-buy {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 10px 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.bottom-buttom .btn-buy:hover {
+  background-color: #1568d3;
+  color: #ffffff;
+}
