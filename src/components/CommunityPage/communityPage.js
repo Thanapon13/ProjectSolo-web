@@ -26,7 +26,7 @@ function CommunityPage() {
               <BiUserCircle />{" "}
             </i>
             <form>
-              <label for="userName"></label>
+              <label htmlFor="userName"></label>
               <input
                 onClick={toggleModal}
                 type="text"

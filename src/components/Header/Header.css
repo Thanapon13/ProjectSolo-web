@@ -5,9 +5,8 @@
 }
 
 .navbar-container {
-  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(248, 248, 248, 0.3);
 }

@@ -22,13 +22,11 @@ function DropdownProfile() {
 
         <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
           <ul>
-            <DropdownItem img={profileUser} text={"My Profile"} />
+            {/* <DropdownItem img={profileUser} text={"My Profile"} /> */}
 
-            <a href="/login">
-              <DropdownItem img={login} text={"เข้าสู่ระบบ"} />
-            </a>
+            <DropdownItem link={"/login"} img={login} text={"เข้าสู่ระบบ"} />
 
-            <DropdownItem img={logout} text={"ออกจากระบบ"} />
+            {/* <DropdownItem img={logout} text={"ออกจากระบบ"} /> */}
           </ul>
         </div>
       </div>
@@ -40,7 +38,7 @@ function DropdownItem(props) {
   return (
     <li className="dropdownItem">
       <img src={props.img}></img>
-      <a> {props.text} </a>
+      <a href={props.link}> {props.text} </a>
     </li>
   );
 }

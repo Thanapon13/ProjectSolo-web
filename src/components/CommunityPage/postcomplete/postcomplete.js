@@ -33,7 +33,7 @@ function postComplete() {
         </div>
         <div className="card-postcomplete-bottom">
           <form>
-            <label for="comment-postcomplete"></label>
+            <label htmlFor="comment-postcomplete"></label>
             <input
               type="text"
               id="comment-postcomplete"

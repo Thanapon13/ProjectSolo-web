@@ -11,7 +11,8 @@ export const dataDigitalBestSeller = [
   {
     id: 1,
     title: "จังหวัดกาญจนบุรี",
-    image: bgKanchanaburi
+    image: bgKanchanaburi,
+    link: "/provincePage/kanchanaburireview"
   },
   {
     id: 2,

@@ -12,7 +12,7 @@ function Postrd() {
             <BiUserCircle />{" "}
           </i>
           <form>
-            <label for="userName"></label>
+            <label htmlFor="userName"></label>
             <input
               type="text"
               id="userName"
