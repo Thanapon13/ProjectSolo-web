@@ -1,0 +1,111 @@
+.container-Useraccount-all {
+  margin-top: 220px;
+}
+.container-Useraccount-all h1 {
+  font-size: 2rem;
+}
+.container-editprofile h1 {
+  font-size: 2.5rem;
+}
+.editprofile-form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+.header-editprofile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn-editProfile {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.btn-editProfile:hover {
+  background-color: #1568d3;
+}
+.img-editProfile {
+  border-radius: 100%;
+  width: 200px;
+}
+.editprofile-form-firstname {
+  display: flex;
+  flex-direction: column;
+}
+.editprofile-input {
+  font-size: 1.5rem;
+  border-radius: 16px;
+  padding: 0 15px;
+  outline: none;
+  border: 1px solid silver;
+}
+
+/* Modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-community {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+.Confirm-editprofile {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  padding: 5px 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Confirm-editprofile:hover {
+  background-color: #1568d3;
+}
+.close-editprofile {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  padding: 10px 15px;
+  background-color: silver;
+  border-radius: 16px;
+}

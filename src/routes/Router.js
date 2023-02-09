@@ -21,103 +21,122 @@ import KhlongMaeKhaChiangMai from "../components/provinceAll/ChiangMai/KhlongMae
 import BaanKangWatChiangMai from "../components/provinceAll/ChiangMai/BaanKangWatChiangMai/BaanKangWatChiangMai";
 import NimmanHillChiangMai from "../components/provinceAll/ChiangMai/NimmanHillChiangMai/NimmanHillChiangMai";
 import ThaPhaeGateChiangMai from "../components/provinceAll/ChiangMai/ThaPhaeGateChiangMai/ThaPhaeGateChiangMai";
+import ProtectedRout from "../features/auth/ProtectedRoute";
+import Header from "../components/Header/Header";
+import Useraccount from "../components/Useraccount/useraccount";
 
 const router = createBrowserRouter([
   {
-    path: "/login",
-    element: (
-      <RedirectIfAuthenticate>
-        <LoginPage />
-      </RedirectIfAuthenticate>
-    )
-  },
-  {
-    path: "/",
-    element: <HomePage />
-  },
-  {
-    path: "/provincePage",
-    element: <ProvincePage />
-  },
+    element: <Header />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />
+      },
+      {
+        path: "/provincePage",
+        element: <ProvincePage />
+      },
+      //   กาญ
+      {
+        path: "/provincePage/kanchanaburireview",
+        element: <Kanchanaburireview />
+      },
+      {
+        path: "/provincePage/kanchanaburireview/SkywalkKanchanaburi",
+        element: <SkywalkKanchanaburi />
+      },
+      {
+        path: "/provincePage/kanchanaburireview/KanMachiCafeKanchanaburi",
+        element: <KanMachiCafeKanchanaburi />
+      },
+      {
+        path: "/provincePage/kanchanaburireview/KrasaeCaveKanchanaburi",
+        element: <KrasaeCaveKanchanaburi />
+      },
 
-  //   กาญ
-  {
-    path: "/provincePage/kanchanaburireview",
-    element: <Kanchanaburireview />
-  },
-  {
-    path: "/provincePage/kanchanaburireview/SkywalkKanchanaburi",
-    element: <SkywalkKanchanaburi />
-  },
-  {
-    path: "/provincePage/kanchanaburireview/KanMachiCafeKanchanaburi",
-    element: <KanMachiCafeKanchanaburi />
-  },
-  {
-    path: "/provincePage/kanchanaburireview/KrasaeCaveKanchanaburi",
-    element: <KrasaeCaveKanchanaburi />
-  },
+      // ชลบุรี
+      {
+        path: "/provincePage/chonburireview",
+        element: <Chonburireview />
+      },
+      {
+        path: "/provincePage/chonburireview/TienBeach",
+        element: <TienBeachChonburi />
+      },
+      {
+        path: "/provincePage/chonburireview/Grandcanyon",
+        element: <GrandcanyonChonburi />
+      },
 
-  // ชลบุรี
-  {
-    path: "/provincePage/chonburireview",
-    element: <Chonburireview />
-  },
-  {
-    path: "/provincePage/chonburireview/TienBeach",
-    element: <TienBeachChonburi />
-  },
-  {
-    path: "/provincePage/chonburireview/Grandcanyon",
-    element: <GrandcanyonChonburi />
-  },
+      // กทม
+      {
+        path: "/provincePage/bangkokreview",
+        element: <Bangkokreview />
+      },
+      {
+        path: "/provincePage/bangkokreview/BangkokJapan",
+        element: <BangkokJapan />
+      },
+      {
+        path: "/provincePage/bangkokreview/KingPowerMahanakhon",
+        element: <KingPowerMahanakhon />
+      },
 
-  // กทม
-  {
-    path: "/provincePage/bangkokreview",
-    element: <Bangkokreview />
-  },
-  {
-    path: "/provincePage/bangkokreview/BangkokJapan",
-    element: <BangkokJapan />
-  },
-  {
-    path: "/provincePage/bangkokreview/KingPowerMahanakhon",
-    element: <KingPowerMahanakhon />
-  },
-
-  // เชียงใหม่
-  {
-    path: "/provincePage/ChiangMai",
-    element: <ChiangMaireview />
-  },
-  {
-    path: "/provincePage/ChiangMai/KhlongMaeKhaChiangMai",
-    element: <KhlongMaeKhaChiangMai />
-  },
-  {
-    path: "/provincePage/ChiangMai/BaanKangWatChiangMai",
-    element: <BaanKangWatChiangMai />
-  },
-  {
-    path: "/provincePage/ChiangMai/NimmanHillChiangMai",
-    element: <NimmanHillChiangMai />
-  },
-  {
-    path: "/provincePage/ChiangMai/ThaPhaeGateChiangMai",
-    element: <ThaPhaeGateChiangMai />
-  },
-  {
-    path: "/reviewPage",
-    element: <ReviewPage />
-  },
-  {
-    path: "/communityPage",
-    element: <CommunityPage />
-  },
-  {
-    path: "/shoppingPage",
-    element: <ShoppingPage />
+      // เชียงใหม่
+      {
+        path: "/provincePage/ChiangMai",
+        element: <ChiangMaireview />
+      },
+      {
+        path: "/provincePage/ChiangMai/KhlongMaeKhaChiangMai",
+        element: <KhlongMaeKhaChiangMai />
+      },
+      {
+        path: "/provincePage/ChiangMai/BaanKangWatChiangMai",
+        element: <BaanKangWatChiangMai />
+      },
+      {
+        path: "/provincePage/ChiangMai/NimmanHillChiangMai",
+        element: <NimmanHillChiangMai />
+      },
+      {
+        path: "/provincePage/ChiangMai/ThaPhaeGateChiangMai",
+        element: <ThaPhaeGateChiangMai />
+      },
+      {
+        path: "/reviewPage",
+        element: <ReviewPage />
+      },
+      {
+        path: "/communityPage",
+        element: (
+          <ProtectedRout>
+            <CommunityPage />
+          </ProtectedRout>
+        )
+      },
+      {
+        path: "/shoppingPage",
+        element: (
+          <ProtectedRout>
+            <ShoppingPage />
+          </ProtectedRout>
+        )
+      },
+      {
+        path: "/login",
+        element: (
+          <RedirectIfAuthenticate>
+            <LoginPage />
+          </RedirectIfAuthenticate>
+        )
+      },
+      {
+        path: "/useraccount",
+        element: <Useraccount />
+      }
+    ]
   }
 ]);
 

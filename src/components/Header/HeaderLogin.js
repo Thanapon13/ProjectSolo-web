@@ -1,17 +1,12 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
 import DropdownProfile from "../Dropdown-Menu/Dropdown-Menu";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import logoPage from "../../img/logo-page.jpg";
 import logoBg from "../../img/logo-bg.jpg";
-
 import "./Header.css";
-import useAuth from "../../hooks/useAuth";
-import DropdownLogin from "../Dropdown-Menu/Dropdown-Login";
 
 export default function Header() {
-  const { authenticateUser } = useAuth();
-
   return (
     <div className="Header">
       <div className="background-nav">
@@ -51,7 +46,7 @@ export default function Header() {
             <FaShoppingCart />
           </i>
         </div>
-        {authenticateUser ? <DropdownLogin /> : <DropdownProfile />}
+        <DropdownProfile />
       </div>
       <Outlet />
     </div>

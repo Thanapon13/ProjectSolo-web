@@ -21,7 +21,6 @@ export default function RegisterModal({ toggleModal }) {
   };
 
   const handleSubmitForm = async e => {
-    console.log("input", input);
     try {
       e.preventDefault();
       const result = validateRegister(input);

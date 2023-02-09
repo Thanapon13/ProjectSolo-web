@@ -6,7 +6,6 @@ import Footer from "./components/Footer/footer";
 function App() {
   return (
     <div>
-      <Header />
       <Router />
       <ToastContainer
         autoClose="1000"
