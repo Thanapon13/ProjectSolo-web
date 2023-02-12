@@ -1,0 +1,47 @@
+.container-shoppingShirt-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+}
+.card-shoppingShirt {
+  width: 250px;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.card-shoppingShirt img {
+  width: 250px;
+  height: 200px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.shoppingShirt-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-shoppingShirt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-shoppingShirt button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-shoppingShirt button:hover {
+  background-color: #1568d3;
+  color: #ffffff;
+}

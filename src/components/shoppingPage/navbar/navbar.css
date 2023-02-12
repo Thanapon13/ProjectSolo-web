@@ -1,0 +1,23 @@
+.container-nav {
+  padding: 20px;
+}
+.navbar-sopping ul {
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 60px;
+  background-color: #90b5ff;
+  border-radius: 10px;
+}
+.navbar-sopping ul li {
+  padding: 15px 25px;
+  font-size: 1rem;
+}
+.active-btn {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.active-btn:hover {
+  background-color: #fbfbfb;
+}

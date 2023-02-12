@@ -5,7 +5,6 @@ import LoginPage from "../components/LoginAndRegister/login";
 import ProvincePage from "../components/ProvincePage/provincePage";
 import ReviewPage from "../components/ReviewPage/reviewPage";
 import CommunityPage from "../components/CommunityPage/communityPage.js";
-import ShoppingPage from "../components/shoppingPage/shoppingPage/shoppingPage";
 import Kanchanaburireview from "../components/provinceAll/kanchanaburi/kanchanaburireview";
 import SkywalkKanchanaburi from "../components/provinceAll/kanchanaburi/SkywalkKanchanaburi/SkywalkKanchanaburi";
 import KanMachiCafeKanchanaburi from "../components/provinceAll/kanchanaburi/KanMachiCafeKanchanaburi/KanMachiCafeKanchanaburi";
@@ -24,6 +23,9 @@ import ThaPhaeGateChiangMai from "../components/provinceAll/ChiangMai/ThaPhaeGat
 import ProtectedRout from "../features/auth/ProtectedRoute";
 import Header from "../components/Header/Header";
 import Useraccount from "../components/Useraccount/useraccount";
+import ShoppingPage from "../components/shoppingPage/shoppingPage/shoppingPage";
+import ShoppingCart from "../components/shoppingPage/shoppingCart/shoppingcart";
+import ShoppingShirt from "../components/shoppingPage/shoppingShirt/shoppingShirt";
 
 const router = createBrowserRouter([
   {
@@ -124,6 +126,15 @@ const router = createBrowserRouter([
           </ProtectedRout>
         )
       },
+      {
+        path: "/shoppingcart",
+        element: <ShoppingCart />
+      },
+      {
+        path: "/shoppingShirt/shoppingShirt",
+        element: <ShoppingShirt />
+      },
+
       {
         path: "/login",
         element: (

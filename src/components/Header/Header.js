@@ -2,6 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import DropdownProfile from "../Dropdown-Menu/Dropdown-Menu";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import ShoppingCart from "./img/shopping-cart.png";
 import logoPage from "../../img/logo-page.jpg";
 import logoBg from "../../img/logo-bg.jpg";
 
@@ -41,16 +42,12 @@ export default function Header() {
             <a href="/shoppingPage">
               <li>Shop</li>
             </a>
+            <a href="/shoppingcart">
+              <img className="ShoppingCart" src={ShoppingCart}></img>
+            </a>
           </ul>
         </nav>
-        <div className="nav-icon">
-          <i>
-            <FaSearch />
-          </i>
-          <i>
-            <FaShoppingCart />
-          </i>
-        </div>
+
         {authenticateUser ? <DropdownLogin /> : <DropdownProfile />}
       </div>
       <Outlet />

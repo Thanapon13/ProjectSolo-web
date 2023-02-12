@@ -2,15 +2,28 @@ import React, { useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import Avatar from "../Avatar";
 import "./ProfileImageForm.css";
+import * as userApi from "../../apis/user-api";
+import useLoading from "../../hooks/useLoading";
 
 export default function ProfileImageForm() {
   const {
     authenticateUser: { profileImage }
   } = useAuth();
 
+  const { startLoading, stopLoading } = useLoading();
+
   const [file, setFile] = useState(null);
 
   const inputEl = useRef();
+
+  const handleClickSave = async () => {
+    startLoading();
+    const formDate = new FormData();
+    formDate.append("profileImage", file);
+    await userApi.updateProfile(formDate);
+    stopLoading();
+  };
+
   return (
     <div className="container-EditProfile">
       <div className="card-EditProfile">
@@ -33,7 +46,7 @@ export default function ProfileImageForm() {
           </div>
           {file && (
             <>
-              <button>Save</button>
+              <button onClick={handleClickSave}>Save</button>
               <button
                 onClick={() => {
                   setFile(null);

@@ -32,7 +32,14 @@ function DropdownLogin() {
               img={<BiUserCircle />}
               text={"EDIT PROFILE"}
             />
-            <DropdownItem link={"/login"} img={BiLogOut} text={"ออกจากระบบ"} />
+            <a href="/">
+              {" "}
+              <DropdownItem
+                link={"/login"}
+                img={BiLogOut}
+                text={"ออกจากระบบ"}
+              />
+            </a>
           </ul>
         </div>
       </div>

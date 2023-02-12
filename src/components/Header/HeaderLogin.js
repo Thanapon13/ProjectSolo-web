@@ -42,9 +42,11 @@ export default function Header() {
           <i>
             <FaSearch />
           </i>
-          <i>
-            <FaShoppingCart />
-          </i>
+          <a href="/shoppingcart">
+            <i>
+              <FaShoppingCart />
+            </i>
+          </a>
         </div>
         <DropdownProfile />
       </div>

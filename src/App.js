@@ -1,11 +1,13 @@
 import { Bounce, ToastContainer } from "react-toastify";
 import Router from "./routes/Router";
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer/footer";
+import useLoading from "./hooks/useLoading";
 
 function App() {
+  const { loading } = useLoading();
   return (
     <div>
+      {loading}
       <Router />
       <ToastContainer
         autoClose="1000"
