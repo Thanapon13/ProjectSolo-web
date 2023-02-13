@@ -32,7 +32,7 @@ function BangkokJapan() {
           </p>
         </div>
         <div className="BangkokJapan-picture">
-          <img src={BangkokJapan01}></img>
+          <img alt="img" src={BangkokJapan01}></img>
           <p>
             วิธีไปง่ายๆ นั่ง bts ลงสถานีพร้อมพงษ์ ทางออกที่ 2 ลงบันไดฝั่ง
             emquartier เดินย้อนขึ้นไปจนเจอ ซอยสุขุมวิท 33/1 เป็นซอยยาวประมาณ 300
@@ -42,62 +42,62 @@ function BangkokJapan() {
             ได้รรยากาศเหมือนมาเดินอยู่ที่ญี่ปุ่นจริงๆเลยค่ะ
             แต่ติดตรงที่อากาศนี่แหละ….
           </p>
-          <img src={BangkokJapan02}></img>
+          <img alt="img" src={BangkokJapan02}></img>
           <p> เดินฝั่งเดียวกับ emquartier ไม่ไกลก็จะเจอซอยสุขุมวิท 33/1</p>
-          <img src={BangkokJapan03}></img>
+          <img alt="img" src={BangkokJapan03}></img>
           <p>
             พอดีเราไปถึงตอนเที่ยงๆ เกือบบ่ายโมงแล้ว เดินเข้ามาก็เจอร้าน “Tan Tan
             Men” (ทัน ทัน เมง) อยู่หน้าซอย เป็นร้านราเม็งชื่อดัง
             มองเข้าไปคนแน่นร้านเลย วันนี้เลยตัดสินใจฝากท้องไว้ที่ร้านนี้เลย
             ร้านเปิดเวลา 11.00 -24.00 เปิดวันจันทร์ – อาทิตย์
           </p>
-          <img src={BangkokJapan04}></img>
+          <img alt="img" src={BangkokJapan04}></img>
           <p>
             เข้ามาในร้าน พนักงานต้อนรับอย่างดี พาเราขึ้นไปชั้นสองค่ะ
             เพราะช่วงเที่ยงๆคนเยอะมาก ร้านมีทั้งหมด 3 ชั้น มีเมนูให้เลือกกว่า
             140 เมนู
           </p>
-          <img src={BangkokJapan05}></img>
+          <img alt="img" src={BangkokJapan05}></img>
           <p>
             ที่เราเลือกทานวันนี้มี 2 เมนู อย่างแรก “บะหมี่เย็น” ราคา 160 บาท
             น้ำซีอิ๋วเค้าหอมอร่อยดีค่ะ เดินมาร้อนๆ
             กินบะหมี่เย็นรู้สึกว่าช่วยได้เหมือนนะคะ
           </p>
-          <img src={BangkokJapan06}></img>
+          <img alt="img" src={BangkokJapan06}></img>
           <p>
             และ “ข้าวแกงกะหรี่กุ้งเทมปุระ” ราคา 190 บาท น้ำซุปเข้มข้น
             รสชาติแกงกะหรี่แท้ๆ ค่ะ
           </p>
-          <img src={BangkokJapan07}></img>
-          <img src={BangkokJapan08}></img>
+          <img alt="img" src={BangkokJapan07}></img>
+          <img alt="img" src={BangkokJapan08}></img>
           <p>
             หลังจากกินอิ่มแล้ว เดินต่อมาในซอยเรื่อยๆ จะเจอร้านอาหาร
             ร้านขนมอีกเยอะเลย
           </p>
-          <img src={BangkokJapan09}></img>
+          <img alt="img" src={BangkokJapan09}></img>
           <p>
             มาถึงร้านนี้ “Custard Nakamura” เป็นร้านเบเกอรี่โฮมเมดสไตล์ญี่ปุ่น
             *มีสาขาที่ญี่ปุ่น และสาขานี้เป็นสาขาเดียวในประเทศไทย* จุดเด่นของเค้า
             อร่อย และถูก เป็นเบเกอรี่ที่อบสดใหม่ทำใหม่ทุกวัน
           </p>
-          <img src={BangkokJapan10}></img>
-          <img src={BangkokJapan11}></img>
-          <img src={BangkokJapan12}></img>
-          <img src={BangkokJapan13}></img>
+          <img alt="img" src={BangkokJapan10}></img>
+          <img alt="img" src={BangkokJapan11}></img>
+          <img alt="img" src={BangkokJapan12}></img>
+          <img alt="img" src={BangkokJapan13}></img>
           <p>
             มาต่อกันที่ร้าน “NEO” ร้านของใช้ในบ้าน เช่น กล่อง ถุง อุปกรณ์ทำครัว
             ชั้น ฯลฯ ราคา 60 80 120 บาท อารมณ์คล้ายๆ daiso มารวมกัน 3 สาขา 55
             ใหญ่มากก
           </p>
-          <img src={BangkokJapan14}></img>
-          <img src={BangkokJapan15}></img>
+          <img alt="img" src={BangkokJapan14}></img>
+          <img alt="img" src={BangkokJapan15}></img>
           <p>
             ร้าน “keybooks” เป็นร้านหนังสือ นำเข้า คือเป็นภาษาญี่ปุ่นล้วนๆ
             มีทั้งมือหนึ่งมือสอง ด้านในร้านมีหนังสือหลากหลายมาก
             แต่คืออะไรมั่งไม่รู้เพราะอ่านไม่ออกเลยค่ะ 555
           </p>
-          <img src={BangkokJapan16}></img>
-          <img src={BangkokJapan17}></img>
+          <img alt="img" src={BangkokJapan16}></img>
+          <img alt="img" src={BangkokJapan17}></img>
           <p>
             เดินมาท้ายๆจะเจอร้าน “Tomato Noodle” เป็นร้านราเมงอีกร้าน
             เมนูขึ้นชื่อคือ “บะหมี่น้ำซุปมะเขือเทศ”
@@ -105,14 +105,14 @@ function BangkokJapan() {
             แล้วยังเปิดทีวีช่องญี่ปุ่นด้วยนะ แต่วันนี้ไม่ได้ลองร้านนี้
             แอบเสียดายเหมือนกันเราอิ่มกันตั้งแต่หน้าซอยซะแล้ว ไว้โอกาสหน้านะคะ
           </p>
-          <img src={BangkokJapan18}></img>
+          <img alt="img" src={BangkokJapan18}></img>
           <p>
             มาถึงร้านสุดท้ายของวันนี้ เป็นร้าน “UFM Fuji Super”
             ซุปเปอร์มาเก็ตของญี่ปุ่นที่เปิดในไทย มีสินค้านำเข้าส่งตรงจากญี่ปุ่น
             เช่น แซลมอน ไข่ปลา บะหมี่กึ่งสำเร็จรูป เครื่องดื่มแฮลกอฮอล์ ของใช้
             ฯลฯ
           </p>
-          <img src={BangkokJapan19}></img>
+          <img alt="img" src={BangkokJapan19}></img>
           <p>
             นอกจากนี้ก็ยังมีร้านนวด สปา ร้านเช่าดีวีดี โรงเรียนคาราเต้ ร้านกาแฟ
             บริษัททัวร์ท่องเที่ยว และอื่นๆอีกมากก็สามารถลองมาเดินเที่ยวได้ที่

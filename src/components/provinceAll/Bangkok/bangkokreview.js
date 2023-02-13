@@ -21,11 +21,11 @@ function Bangkokreview() {
       <div className="container-card-bangkokreview">
         <div className="card-bangkok">
           <Link to="/provincePage/bangkokreview/BangkokJapan">
-            <img src={BangkokJapan}></img>
+            <img alt="img" src={BangkokJapan}></img>
           </Link>
 
           <Link to="/provincePage/bangkokreview/KingPowerMahanakhon">
-            <img src={KingPowerMahanakhon}></img>
+            <img alt="img" src={KingPowerMahanakhon}></img>
           </Link>
         </div>
       </div>

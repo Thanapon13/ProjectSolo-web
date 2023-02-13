@@ -18,49 +18,49 @@ function ProvincePage() {
       <div className="card-continer-provincepage">
         <div className="card-provincepage">
           <Link to="/provincePage/kanchanaburireview">
-            <img src={bgKanchanaburi}></img>
+            <img alt="img" src={bgKanchanaburi}></img>
             <h1>จังหวัดกาญจนบุรี</h1>
           </Link>
         </div>
 
         <div className="card-provincepage">
           <Link to="/provincePage/chonburireview">
-            <img src={bgChonburi}></img>
+            <img alt="img" src={bgChonburi}></img>
             <h1>จังหวัดชลบุรี</h1>
           </Link>
         </div>
 
         <div className="card-provincepage">
           <Link to="/provincePage/bangkokreview">
-            <img src={bgBangkok}></img>
+            <img alt="img" src={bgBangkok}></img>
             <h1>จังหวัดกรุงเทพมหานคร</h1>
           </Link>
         </div>
 
         <div className="card-provincepage">
           <Link to="/provincePage/ChiangMai">
-            <img src={bgChiangMai}></img>
+            <img alt="img" src={bgChiangMai}></img>
             <h1>จังหวัดเชียงใหม่</h1>
           </Link>
         </div>
 
         <div className="card-provincepage">
-          <img src={bgChiangRai}></img>
+          <img alt="img" src={bgChiangRai}></img>
           <h1>จังหวัดเชียงราย</h1>
         </div>
 
         <div className="card-provincepage">
-          <img src={bgchumphon}></img>
+          <img alt="img" src={bgchumphon}></img>
           <h1>จังหวัดชุมพร</h1>
         </div>
 
         <div className="card-provincepage">
-          <img src={bgnan}></img>
+          <img alt="img" src={bgnan}></img>
           <h1>จังหวัดน่าน</h1>
         </div>
 
         <div className="card-provincepage">
-          <img src={bgSukhothai}></img>
+          <img alt="img" src={bgSukhothai}></img>
           <h1>จังหวัดสุโขทัย</h1>
         </div>
       </div>

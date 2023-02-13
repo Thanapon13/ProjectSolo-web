@@ -8,9 +8,6 @@ function ShoppingPage() {
   return (
     <div className="container-shoppingPage-all">
       <NavbarShopping />
-      <h1 style={{ textAlign: "center", color: "red", fontSize: "2rem" }}>
-        *****ไหว้ละ อย่ากดซื้อสินค้าซ้ำกัน*****
-      </h1>
       <ShoppingShirt />
       <ShoppingGlass />
     </div>

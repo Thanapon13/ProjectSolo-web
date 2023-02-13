@@ -17,7 +17,7 @@ function SlickReview() {
     <div className="container">
       <Slider {...settings}>
         {dataDigitalBestSeller.map(item => (
-          <div className="card">
+          <div key={item} className="card">
             <div className="card-top">
               <img src={item.linkImg} alt={item.title} />
               <h1>{item.title}</h1>

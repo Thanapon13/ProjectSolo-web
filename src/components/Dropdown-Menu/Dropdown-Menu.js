@@ -14,7 +14,7 @@ function DropdownProfile() {
             setOpen(!open);
           }}
         >
-          <img src={profileUser}></img>
+          <img alt="img" src={profileUser}></img>
         </div>
 
         <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
@@ -30,7 +30,7 @@ function DropdownProfile() {
 function DropdownItem(props) {
   return (
     <li className="dropdownItem">
-      <img src={props.img}></img>
+      <img alt="img" src={props.img}></img>
       <a href={props.link}> {props.text} </a>
     </li>
   );

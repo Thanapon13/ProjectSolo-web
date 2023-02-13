@@ -23,20 +23,20 @@ function ChiangMaiireviewreview() {
       <div className="container-card-ChiangMaireviewreview">
         <div className="card-ChiangMai">
           <Link to="/provincePage/ChiangMai/KhlongMaeKhaChiangMai">
-            <img src={KhlongMaeKha}></img>
+            <img alt="img" src={KhlongMaeKha}></img>
           </Link>
 
           <Link to="/provincePage/ChiangMai/BaanKangWatChiangMai">
-            <img src={BaanKangWat}></img>
+            <img alt="img" src={BaanKangWat}></img>
           </Link>
 
           <Link to="/provincePage/ChiangMai/NimmanHillChiangMai">
-            <img src={NimmanHill}></img>
+            <img alt="img" src={NimmanHill}></img>
           </Link>
 
           <Link to="/provincePage/ChiangMai/ThaPhaeGateChiangMai">
             {" "}
-            <img src={ThaPhaeGate}></img>
+            <img alt="img" src={ThaPhaeGate}></img>
           </Link>
         </div>
       </div>

@@ -77,11 +77,11 @@ function HomePage() {
         <div className="community-container-cardpost">
           <div className="card-post">
             <div className="nameprofile">
-              <img src={nameprofile}></img>
+              <img alt="img" src={nameprofile}></img>
               <p>Username</p>
             </div>
             <div className="imagepost">
-              <img src={imagepost}></img>
+              <img alt="img" src={imagepost}></img>
             </div>
             <div className="bottomcontent">
               <div className="postcontent">
@@ -105,11 +105,11 @@ function HomePage() {
           {/* card 2 */}
           <div className="card-post">
             <div className="nameprofile">
-              <img src={nameprofile}></img>
+              <img alt="img" src={nameprofile}></img>
               <p>Username</p>
             </div>
             <div className="imagepost">
-              <img src={imagepost}></img>
+              <img alt="img" src={imagepost}></img>
             </div>
             <div className="bottomcontent">
               <div className="postcontent">
@@ -133,11 +133,11 @@ function HomePage() {
           {/* card 3 */}
           <div className="card-post">
             <div className="nameprofile">
-              <img src={nameprofile}></img>
+              <img alt="img" src={nameprofile}></img>
               <p>Username</p>
             </div>
             <div className="imagepost">
-              <img src={imagepost}></img>
+              <img alt="img" src={imagepost}></img>
             </div>
             <div className="bottomcontent">
               <div className="postcontent">

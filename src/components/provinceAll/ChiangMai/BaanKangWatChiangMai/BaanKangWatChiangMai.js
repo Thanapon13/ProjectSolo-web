@@ -24,10 +24,10 @@ function BaanKangWatChiangMai() {
           </p>
         </div>
         <div className="BaanKangWatChiangMai-picture">
-          <img src={BaanKangWat01}></img>
-          <img src={BaanKangWat02}></img>
-          <img src={BaanKangWat03}></img>
-          <img src={BaanKangWat04}></img>
+          <img alt="img" src={BaanKangWat01}></img>
+          <img alt="img" src={BaanKangWat02}></img>
+          <img alt="img" src={BaanKangWat03}></img>
+          <img alt="img" src={BaanKangWat04}></img>
         </div>
 
         <div className="BaanKangWatChiangMai-location">

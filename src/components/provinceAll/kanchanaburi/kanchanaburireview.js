@@ -22,15 +22,15 @@ function Kanchanaburireview() {
       <div className="container-card-Kanchanaburireview">
         <div className="card-kanchanaburi">
           <Link to="/provincePage/kanchanaburireview/SkywalkKanchanaburi">
-            <img src={SkyWalk}></img>
+            <img alt="img" src={SkyWalk}></img>
           </Link>
 
           <Link to="/provincePage/kanchanaburireview/KanMachiCafeKanchanaburi">
-            <img src={KanMachiCafe}></img>
+            <img alt="img" src={KanMachiCafe}></img>
           </Link>
 
           <Link to="/provincePage/kanchanaburireview/KrasaeCaveKanchanaburi">
-            <img src={KrasaeCaveKanchanaburi}></img>
+            <img alt="img" src={KrasaeCaveKanchanaburi}></img>
           </Link>
         </div>
       </div>

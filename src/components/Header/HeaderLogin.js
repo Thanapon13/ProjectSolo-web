@@ -1,7 +1,6 @@
 import React from "react";
 import DropdownProfile from "../Dropdown-Menu/Dropdown-Menu";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import logoPage from "../../img/logo-page.jpg";
 import logoBg from "../../img/logo-bg.jpg";
 import "./Header.css";
@@ -10,11 +9,11 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="background-nav">
-        <img src={logoBg}></img>
+        <img alt="img" src={logoBg}></img>
       </div>
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logoPage}></img>
+          <img alt="img" src={logoPage}></img>
         </div>
         <nav className="navbar-menu">
           <ul>

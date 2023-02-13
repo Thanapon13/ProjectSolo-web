@@ -27,12 +27,12 @@ function ThaPhaeGateChiangMai() {
           </p>
         </div>
         <div className="ThaPhaeGateChiangMai-picture">
-          <img src={ThaPhaeGateChiangMai01}></img>
-          <img src={ThaPhaeGateChiangMai02}></img>
-          <img src={ThaPhaeGateChiangMai03}></img>
-          <img src={ThaPhaeGateChiangMai04}></img>
-          <img src={ThaPhaeGateChiangMai05}></img>
-          <img src={ThaPhaeGateChiangMai06}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai01}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai02}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai03}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai04}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai05}></img>
+          <img alt="img" src={ThaPhaeGateChiangMai06}></img>
         </div>
 
         <div className="ThaPhaeGateChiangMai-location">

@@ -24,12 +24,12 @@ function Chonburireview() {
       <div className="container-card-Kanchanaburireview">
         <div className="card-kanchanaburi">
           <Link to="/provincePage/chonburireview/TienBeach">
-            <img src={TienBeach}></img>
+            <img alt="img" src={TienBeach}></img>
           </Link>
 
           <Link to="/provincePage/chonburireview/Grandcanyon">
             {" "}
-            <img src={Grandcanyon}></img>
+            <img alt="img" src={Grandcanyon}></img>
           </Link>
         </div>
       </div>

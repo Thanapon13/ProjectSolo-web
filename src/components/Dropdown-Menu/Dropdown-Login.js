@@ -51,7 +51,7 @@ function DropdownItem(props) {
   const { logout, authenticateUser } = useAuth();
   return (
     <li className="dropdownItem">
-      <img src={props.img}></img>
+      <img alt="img" src={props.img}></img>
       <button onClick={logout} href={props.link}>
         {props.text}
       </button>
@@ -62,7 +62,7 @@ function DropdownItem(props) {
 function DropdownItems(props) {
   return (
     <li className="dropdownItem">
-      <img src={props.img}></img>
+      <img alt="img" src={props.img}></img>
       <a href={props.link}> {props.text} </a>
     </li>
   );

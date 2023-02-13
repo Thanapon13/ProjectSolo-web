@@ -26,10 +26,10 @@ function KhlongMaeKhaChiangMai() {
           </p>
         </div>
         <div className="KhlongMaeKhaChiangMai-picture">
-          <img src={KhlongMaeKhaChiangMai01}></img>
-          <img src={KhlongMaeKhaChiangMai02}></img>
-          <img src={KhlongMaeKhaChiangMai03}></img>
-          <img src={KhlongMaeKhaChiangMai04}></img>
+          <img alt="img" src={KhlongMaeKhaChiangMai01}></img>
+          <img alt="img" src={KhlongMaeKhaChiangMai02}></img>
+          <img alt="img" src={KhlongMaeKhaChiangMai03}></img>
+          <img alt="img" src={KhlongMaeKhaChiangMai04}></img>
         </div>
         <div className="KhlongMaeKhaChiangMai-location">
           <ul>

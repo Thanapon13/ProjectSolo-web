@@ -29,7 +29,7 @@ function GrandcanyonChonburi() {
             แต่ขอบอกว่ายิ่งใหญ่มากมุมสวยฮิปเพียบๆ
             จะดีสมคำร่ำลือขนาดไหนไปชมกันเลย แกรนด์แคนยอน คีรี
           </p>
-          <img src={GrandcanyonChonburi01}></img>
+          <img alt="img" src={GrandcanyonChonburi01}></img>
         </div>
         <div className="GrandcanyonChonburi-picture">
           <p>
@@ -39,25 +39,25 @@ function GrandcanyonChonburi() {
             เส้นทางค่อยข้างซับซ้อน แถมจีพีเอสยังพาหลง
             แต่ลองสอบถามชาวบ้านแถวนั้นก็รู้จักกันหมด
           </p>
-          <img src={GrandcanyonChonburi02}></img>
+          <img alt="img" src={GrandcanyonChonburi02}></img>
           <p>
             ขับรถมาตามทางที่ชาวบ้านบอก จะพบถนนเส้นเลียบทางรถไฟ
             ขับเข้ามาตามป้ายบอกทางอีกเล็กน้อยจะพบกับลานจอดรถ มีค่าบริการฝากรถ 20
             บาท ด้านหน้ามีร้านให้บริการอาหารเครื่องดื่มอยู่ปากทางเข้า
             รองท้องก่อนเข้าไปลุย
           </p>
-          <img src={GrandcanyonChonburi03}></img>
+          <img alt="img" src={GrandcanyonChonburi03}></img>
           <p>
             เดินเข้ามาเรื่อยๆ ผ่านเส้นทางต้นไม้ร่มรื่น
             พื้นดินแข็งแรงมีความเฉอะแฉะบ้างเล็กน้อย
             มีมุมเกร๋ให้เช็คอินก่อนสักหนึ่งจุด
           </p>
-          <img src={GrandcanyonChonburi04}></img>
+          <img alt="img" src={GrandcanyonChonburi04}></img>
           <p>
             เข้ามาสักร้อยเมตรจะพบกับแอ่งน้ำสีเขียวมรกตขนาดใหญ่ เนื้อที่ราวๆ 100
             ไร่ แถมยังลึกมาก มองลงไปรู้สึกหวาดเสียวไม่น้อย
           </p>
-          <img src={GrandcanyonChonburi05}></img>
+          <img alt="img" src={GrandcanyonChonburi05}></img>
           <p>
             ขอบอกว่าบรรยากาศเย็นสบายสุดๆ แถมน้ำยังเป็นสีเขียวมรกต
             ตัดเข้ากันกับท้องฟ้าเมฆสวย ถึงจะมีระเบียงกั้นแต่ค่อนข้างเก่าและชำรุด
@@ -65,25 +65,25 @@ function GrandcanyonChonburi() {
             ด้านหลังเป็นรางรถไฟคู่จะถ่ายมุมนี้ก็เก๋
             โชคดีอาจเจอรถไฟวิ่งผ่านด้วยนะ
           </p>
-          <img src={GrandcanyonChonburi06}></img>
+          <img alt="img" src={GrandcanyonChonburi06}></img>
           <p>
             ยังไม่หมดมีอีกหนึ่งไฮไลท์ เดินเข้ามาเรื่อยๆ ตามรั้ว
             ผ่านเส้นทางทุ่งหญ้าและลำธาร มองไปไกลๆ ดูคล้ายภูเขาน้ำแข็ง
           </p>
-          <img src={GrandcanyonChonburi07}></img>
+          <img alt="img" src={GrandcanyonChonburi07}></img>
           <p>
             เดินเข้ามาประมาณ 200 เมตร
             จะพบกับเนินหินขนาดใหญ่ที่ถูกเซาะด้วยน้ำฝนตามธรรมชาติ รูปร่างแปลกตา
           </p>
-          <img src={GrandcanyonChonburi08}></img>
-          <img src={GrandcanyonChonburi09}></img>
-          <img src={GrandcanyonChonburi10}></img>
+          <img alt="img" src={GrandcanyonChonburi08}></img>
+          <img alt="img" src={GrandcanyonChonburi09}></img>
+          <img alt="img" src={GrandcanyonChonburi10}></img>
           <p>
             จะเก็บมุมไหนก็ชิค แต่ต้องระวังกันเล็กน้อย
             ยิ่งใส่รองเท้าแตะหินพร้อมที่จะลื่นได้ตลอดเวลา
           </p>
-          <img src={GrandcanyonChonburi11}></img>
-          <img src={GrandcanyonChonburi12}></img>
+          <img alt="img" src={GrandcanyonChonburi11}></img>
+          <img alt="img" src={GrandcanyonChonburi12}></img>
 
           <p>
             ขากลับขอถ่ายคู่กับเหมืองอีกสักทีชิลล์สุดๆ ไปเลย

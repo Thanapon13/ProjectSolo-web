@@ -32,7 +32,7 @@ export default function ShoppingGlass() {
             return (
               <>
                 <div key={product.id} className="card-shoppingShirt">
-                  <img src={product.url}></img>
+                  <img alt="img" src={product.url}></img>
                   <div className="shoppingShirt-content">
                     <h1>{product.product_name}</h1>
                     <p>{product.price} บาท</p>

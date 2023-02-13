@@ -18,56 +18,56 @@ function reviewPage() {
       <div className="card-continer-reviewPage">
         <div className="card-reviewPage">
           <Link to="/provincePage/bangkokreview/BangkokJapan">
-            <img src={BangkokJapan}></img>
+            <img alt="img" src={BangkokJapan}></img>
             <h1>Bangkok – Japan</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/bangkokreview/KingPowerMahanakhon">
-            <img src={BangkokKingPowerMahanakhon}></img>
+            <img alt="img" src={BangkokKingPowerMahanakhon}></img>
             <h1>Power Mahanakhon</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/chonburireview/Grandcanyon">
-            <img src={Chonburigrandcanyon}></img>
+            <img alt="img" src={Chonburigrandcanyon}></img>
             <h1>Grandcanyon</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/chonburireview/TienBeach">
-            <img src={ChonburiTienBeach}></img>
+            <img alt="img" src={ChonburiTienBeach}></img>
             <h1>Tien Beach</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/kanchanaburireview/KanMachiCafeKanchanaburi">
-            <img src={KanMachiCafeKanchanaburi}></img>
+            <img alt="img" src={KanMachiCafeKanchanaburi}></img>
             <h1>KanMachi Cafe</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/kanchanaburireview/SkywalkKanchanaburi">
-            <img src={SkywalkKanchanaburi}></img>
+            <img alt="img" src={SkywalkKanchanaburi}></img>
             <h1>Skywalk</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/ChiangMai/BaanKangWatChiangMai">
-            <img src={ChiangMaiBaanKangWat}></img>
+            <img alt="img" src={ChiangMaiBaanKangWat}></img>
             <h1>BaanKangWat</h1>
           </Link>
         </div>
 
         <div className="card-reviewPage">
           <Link to="/provincePage/kanchanaburireview/KrasaeCaveKanchanaburi">
-            <img src={KrasaeCaveKanchanaburi}></img>
+            <img alt="img" src={KrasaeCaveKanchanaburi}></img>
             <h1>Krasae Cave</h1>
           </Link>
         </div>

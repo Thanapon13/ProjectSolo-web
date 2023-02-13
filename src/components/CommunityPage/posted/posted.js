@@ -22,7 +22,7 @@ function Postrd() {
         </div>
 
         <div className="card-posted-picture-center">
-          <img src={KingPowerMahanakhonimg}></img>
+          <img alt="img" src={KingPowerMahanakhonimg}></img>
         </div>
 
         <div className="card-posted-bottom">

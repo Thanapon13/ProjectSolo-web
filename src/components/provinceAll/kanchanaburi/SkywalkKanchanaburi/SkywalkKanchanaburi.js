@@ -16,7 +16,7 @@ function SkywalkKanchanaburi() {
       <div className="container-SkywalkKanchanaburi">
         <div className="SkywalkKanchanaburi-header">
           <h1>Skywalk กาญจนบุรี แลนด์มาร์กแห่งใหม่ที่ต้องไปเช็คอิน!</h1>
-          <img src={SkyWalk}></img>
+          <img alt="img" src={SkyWalk}></img>
         </div>
         <div className="SkywalkKanchanaburi-content">
           <p>
@@ -32,22 +32,22 @@ function SkywalkKanchanaburi() {
             สมเด็จพระสังฆราช สกลมหาสังฆปรินายก
             ซึ่งเป็นอีกหนึ่งสถานที่สำคัญของจังหวัดกาญจนบุรี
           </p>
-          <img src={Skywalkkanchanaburi}></img>
+          <img alt="img" src={Skywalkkanchanaburi}></img>
           <p>
             จากมุมนี้เราสามารถมองเห็นแม่น้ำสองสีที่มาบรรจบกันของแม่น้ำแควใหญ่และแม่น้ำแควน้อย
             ซึ่งเป็นต้นกำเนิดของแม่น้ำแม่กลอง
           </p>
-          <img src={Skywalkkanchanaburi02}></img>
+          <img alt="img" src={Skywalkkanchanaburi02}></img>
           <p>ภาพมุมสูงสวยๆ ของแม่น้ำแควและ Skywalk กาญจนบุรี</p>
-          <img src={Skywalkkanchanaburi03}></img>
+          <img alt="img" src={Skywalkkanchanaburi03}></img>
           <p>
             ไม่ว่าจะมองไปทางไหนก็สามารถเห็นภาพของภูเขาและแม่น้ำตัดกับท้องฟ้าสวยๆ
             ได้แบบ 360 องศาเลย
           </p>
-          <img src={Skywalkkanchanaburi04}></img>
-          <img src={Skywalkkanchanaburi05}></img>
-          <img src={Skywalkkanchanaburi06}></img>
-          <img src={Skywalkkanchanaburi07}></img>
+          <img alt="img" src={Skywalkkanchanaburi04}></img>
+          <img alt="img" src={Skywalkkanchanaburi05}></img>
+          <img alt="img" src={Skywalkkanchanaburi06}></img>
+          <img alt="img" src={Skywalkkanchanaburi07}></img>
           <p>
             ใครที่อยากมาดูความสวยงามของ Skywalk กาญจนบุรี
             ก็สามารถมาเที่ยวชมกันได้เลย

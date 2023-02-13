@@ -16,7 +16,7 @@ function Useraccount() {
         <h1 style={{ textAlign: "center" }}>EDIT PROFILE</h1>
 
         <div className="header-editprofile">
-          <img className="img-editProfile" src={EditProfile}></img>
+          <img className="img-editProfile" alt="img" src={EditProfile}></img>
           <button className="btn-editProfile" onClick={toggleModal}>
             Edit
           </button>
@@ -45,7 +45,6 @@ function Useraccount() {
 
       {modal && (
         <div className="modal">
-          {console.log("kuy")}
           <div className="overlay">
             <div className="modal-community">
               <ProfileImageForm />

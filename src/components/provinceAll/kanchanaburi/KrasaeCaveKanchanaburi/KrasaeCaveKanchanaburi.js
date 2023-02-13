@@ -30,7 +30,7 @@ function KrasaeCaveKanchanaburi() {
           </p>
         </div>
         <div className="KrasaeCaveKanchanaburi-picture">
-          <img src={KrasaeCaveKanchanaburi01}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi01}></img>
           <p>
             <strong>ถ้ำกระแซ</strong> ที่ตั้งอยู่ริมเส้นทางรถไฟ
             ในอดีตเชื่อกันว่าถ้ำกระแซเคยเป็นที่พักของเชลยศึกที่ถูกกวาดต้อนมาสร้างทางรถไฟสายมรณะ
@@ -45,29 +45,29 @@ function KrasaeCaveKanchanaburi() {
             และปิดท้ายด้วยการเดินชมบรรยากาศบนเส้นทางรถไฟสายมรณะ
             และเส้นทางสายนี้ยังได้รับการกล่าวขานกันว่าเป็นจุดชมวิวแม่น้ำแควน้อยที่สวยมากเลยทีเดียว
           </p>
-          <img src={KrasaeCaveKanchanaburi02}></img>
-          <img src={KrasaeCaveKanchanaburi03}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi02}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi03}></img>
           <p>
             ภายในมีองค์หลวงพ่อถ้ำกระแซ พระพุทธรูปองค์ใหญ่
             และดอกไม้ธูปเทียนให้ได้กราบเพื่อความเป็นสิริมงคลกันอีกด้วย
           </p>
-          <img src={KrasaeCaveKanchanaburi04}></img>
-          <img src={KrasaeCaveKanchanaburi05}></img>
-          <img src={KrasaeCaveKanchanaburi06}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi04}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi05}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi06}></img>
           <p>
             ตัวถ้ำติดกับเส้นทางรถไฟสายกาญจนบุรี – น้ำตก ภายในถ้ำโปร่ง
             เมื่อมองจากปากถ้ำมาที่บริเวณทางรถไฟจะเห็นทิวทัศน์ที่งดงาม
           </p>
-          <img src={KrasaeCaveKanchanaburi07}></img>
-          <img src={KrasaeCaveKanchanaburi08}></img>
-          <img src={KrasaeCaveKanchanaburi09}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi07}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi08}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi09}></img>
           <p>
             ตลอดรางรถไฟต่างก็มีนักท่องเที่ยวเดินชมความสวยงามของภาพวิวแม่น้ำแควน้อย
             และดื่มด่ำบรรยากาศกันเป็นจำนวนมาก
           </p>
-          <img src={KrasaeCaveKanchanaburi10}></img>
-          <img src={KrasaeCaveKanchanaburi11}></img>
-          <img src={KrasaeCaveKanchanaburi12}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi10}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi11}></img>
+          <img alt="img" src={KrasaeCaveKanchanaburi12}></img>
           <p>
             เส้นทางรางรถไฟบริเวณสะพานถ้ำกระแซสายนี้มีความคดเคี้ยวลัดเลาะไปตามแนวเขาชันและแม่น้ำแควน้อยที่มีความสูงกว่า
             10 เมตร

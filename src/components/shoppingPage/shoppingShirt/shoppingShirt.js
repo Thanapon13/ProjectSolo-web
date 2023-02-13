@@ -26,26 +26,24 @@ export default function ShoppingShirt() {
   return (
     <div className="container-shoppingShirt-all">
       {products &&
-        products
-          .filter(el => el.categoryId == 1)
-          ?.map(product => {
-            return (
-              <>
-                <div key={product.id} className="card-shoppingShirt">
-                  <img src={product.url}></img>
-                  <div className="shoppingShirt-content">
-                    <h1>{product.product_name}</h1>
-                    <p>{product.price} บาท</p>
-                  </div>
-                  <div className="btn-shoppingShirt">
-                    <button onClick={() => handleAddCart(product.id)}>
-                      กดใส่ตะร้า
-                    </button>
-                  </div>
+        products?.map(product => {
+          return (
+            <>
+              <div key={product.id} className="card-shoppingShirt">
+                <img alt="img" src={product.url}></img>
+                <div className="shoppingShirt-content">
+                  <h1>{product.product_name}</h1>
+                  <p>{product.price} บาท</p>
                 </div>
-              </>
-            );
-          })}
+                <div className="btn-shoppingShirt">
+                  <button onClick={() => handleAddCart(product.id)}>
+                    กดใส่ตะร้า
+                  </button>
+                </div>
+              </div>
+            </>
+          );
+        })}
     </div>
   );
 }

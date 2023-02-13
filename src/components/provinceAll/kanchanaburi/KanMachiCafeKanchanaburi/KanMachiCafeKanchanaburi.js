@@ -24,12 +24,12 @@ function KanMachiCafeKanchanaburi() {
           </p>
         </div>
         <div className="KanMachiCafeKanchanaburi-picture">
-          <img src={Kanmachi01}></img>
-          <img src={Kanmachi02}></img>
-          <img src={Kanmachi03}></img>
-          <img src={Kanmachi04}></img>
-          <img src={Kanmachi05}></img>
-          <img src={Kanmachi06}></img>
+          <img alt="img" src={Kanmachi01}></img>
+          <img alt="img" src={Kanmachi02}></img>
+          <img alt="img" src={Kanmachi03}></img>
+          <img alt="img" src={Kanmachi04}></img>
+          <img alt="img" src={Kanmachi05}></img>
+          <img alt="img" src={Kanmachi06}></img>
         </div>
         <div className="KanMachiCafeKanchanaburi-location">
           <ul>

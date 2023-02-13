@@ -23,10 +23,10 @@ function NimmanHillChiangMai() {
           </p>
         </div>
         <div className="NimmanHillChiangMai-picture">
-          <img src={NimmanHillChiangMai01}></img>
-          <img src={NimmanHillChiangMai02}></img>
-          <img src={NimmanHillChiangMai03}></img>
-          <img src={NimmanHillChiangMai04}></img>
+          <img alt="img" src={NimmanHillChiangMai01}></img>
+          <img alt="img" src={NimmanHillChiangMai02}></img>
+          <img alt="img" src={NimmanHillChiangMai03}></img>
+          <img alt="img" src={NimmanHillChiangMai04}></img>
         </div>
 
         <div className="NimmanHillChiangMai-location">

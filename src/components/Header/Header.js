@@ -16,11 +16,11 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="background-nav">
-        <img src={logoBg}></img>
+        <img alt="img" src={logoBg}></img>
       </div>
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logoPage}></img>
+          <img alt="img" src={logoPage}></img>
         </div>
         <nav className="navbar-menu">
           <ul>
@@ -43,7 +43,7 @@ export default function Header() {
               <li>Shop</li>
             </a>
             <a href="/shoppingcart">
-              <img className="ShoppingCart" src={ShoppingCart}></img>
+              <img alt="img" className="ShoppingCart" src={ShoppingCart}></img>
             </a>
           </ul>
         </nav>

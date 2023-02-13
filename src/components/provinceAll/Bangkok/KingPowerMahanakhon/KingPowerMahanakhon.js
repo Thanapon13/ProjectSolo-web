@@ -27,11 +27,11 @@ function KingPowerMahanakhon() {
           </p>
         </div>
         <div className="KingPowerMahanakhon-picture">
-          <img src={KingPowerMahanakhon01}></img>
-          <img src={KingPowerMahanakhon02}></img>
-          <img src={KingPowerMahanakhon03}></img>
-          <img src={KingPowerMahanakhon04}></img>
-          <img src={KingPowerMahanakhon05}></img>
+          <img alt="img" src={KingPowerMahanakhon02}></img>
+          <img alt="img" src={KingPowerMahanakhon01}></img>
+          <img alt="img" src={KingPowerMahanakhon03}></img>
+          <img alt="img" src={KingPowerMahanakhon04}></img>
+          <img alt="img" src={KingPowerMahanakhon05}></img>
         </div>
         <div className="KingPowerMahanakhon-location">
           <ul>

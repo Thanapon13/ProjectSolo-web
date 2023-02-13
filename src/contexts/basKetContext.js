@@ -4,16 +4,11 @@ import * as cartApi from "../apis/cart-api";
 export const BasketContext = createContext();
 
 export default function BasketContextProvider({ children }) {
-  const [basket, setBasket] = useState([]);
+  // const [basket, setBasket] = useState([]);
 
-  useEffect(async () => {
-    const res = await cartApi.getCart();
-    console.log(res);
-  }, []);
+  // useEffect(async () => {
+  //   const res = await cartApi.getCart();
+  // }, []);
 
-  return (
-    <BasketContext.Provider value={{ basket, setBasket }}>
-      {children}
-    </BasketContext.Provider>
-  );
+  return <BasketContext.Provider value={{}}>{children}</BasketContext.Provider>;
 }

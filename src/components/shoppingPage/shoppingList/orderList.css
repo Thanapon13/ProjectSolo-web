@@ -1,0 +1,63 @@
+.container-order-all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.container-box-left {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  width: 40%;
+  flex-direction: column;
+}
+.container-box-left img {
+  width: 200px;
+  margin: auto;
+}
+.btn-qrcode {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.btn-upload {
+  border: 1px solid silver;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.btn-upload:hover {
+  background-color: rgb(134, 134, 254);
+}
+.container-box-right {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  width: 40%;
+  flex-direction: column;
+}
+.box-right-header {
+  display: flex;
+  justify-content: space-between;
+}
+.number-item {
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: orange;
+}
+.box-right-product {
+  display: flex;
+}
+.box-right-product {
+  display: flex;
+  justify-content: space-around;
+}
+.box-right-product h1 {
+  margin-left: 20px;
+}
+.box-right-product img {
+  width: 100px;
+  border-radius: 5px;
+}

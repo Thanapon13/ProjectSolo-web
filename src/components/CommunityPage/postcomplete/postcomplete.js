@@ -20,7 +20,7 @@ function postComplete() {
           <h3>userName</h3>
         </div>
         <div className="card-postcomplete-pieture-center">
-          <img src={imagePostComplete}></img>
+          <img alt="img" src={imagePostComplete}></img>
         </div>
         <div className="card-postcomplete-icon">
           <i>

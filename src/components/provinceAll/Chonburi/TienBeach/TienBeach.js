@@ -41,7 +41,7 @@ function TienBeachChonburi() {
                 หาดเทียน ที่เที่ยวชลบุรี ทะเลสวย น้ำใส อยู่ใกล้กรุงเทพฯ
               </strong>
             </p>
-            <img src={TienBeachChonburi01}></img>
+            <img alt="img" src={TienBeachChonburi01}></img>
           </div>
           <div className="TienBeachChonburi-picture-bottom">
             <p>
@@ -55,32 +55,32 @@ function TienBeachChonburi() {
               และนักท่องเที่ยวชาวไทยอย่างเราๆ เพราะมีความสะดวกครบครันอย่างมาก
               ทั้งบริการอุปกรณ์เล่นกิจกรรมทางน้ำต่างๆ คล้ายกับหาดตาแหวนเลย
             </p>
-            <img src={TienBeachChonburi02}></img>
-            <img src={TienBeachChonburi03}></img>
+            <img alt="img" src={TienBeachChonburi02}></img>
+            <img alt="img" src={TienBeachChonburi03}></img>
             <p> นั่งปิกนิกริมหาดก็ชิลล์ หรือจะถ่ายรูปชิคๆ ก็เก๋</p>
-            <img src={TienBeachChonburi04}></img>
-            <img src={TienBeachChonburi05}></img>
-            <img src={TienBeachChonburi06}></img>
+            <img alt="img" src={TienBeachChonburi04}></img>
+            <img alt="img" src={TienBeachChonburi05}></img>
+            <img alt="img" src={TienBeachChonburi06}></img>
             <p>ความเขียวของต้นไม้ที่ตัดกับสีฟ้าน้ำทะเลสวยมาก</p>
-            <img src={TienBeachChonburi07}></img>
-            <img src={TienBeachChonburi08}></img>
-            <img src={TienBeachChonburi09}></img>
-            <img src={TienBeachChonburi10}></img>
+            <img alt="img" src={TienBeachChonburi07}></img>
+            <img alt="img" src={TienBeachChonburi08}></img>
+            <img alt="img" src={TienBeachChonburi09}></img>
+            <img alt="img" src={TienBeachChonburi10}></img>
             <p>
               ที่นี่มีกิจกรรมและกีฬาทางน้ำให้เล่นด้วยนะ
               กิจกรรมเยอะจบครบที่หาดเดียวเลย
             </p>
-            <img src={TienBeachChonburi11}></img>
+            <img alt="img" src={TienBeachChonburi11}></img>
             <p>สะพานไม้เป็นมุมถ่ายรูปยอดฮิต ปังสุดๆ</p>
-            <img src={TienBeachChonburi12}></img>
-            <img src={TienBeachChonburi13}></img>
+            <img alt="img" src={TienBeachChonburi12}></img>
+            <img alt="img" src={TienBeachChonburi13}></img>
             <p>
               ไฮไลท์ของหาดนี้เลยคือห่านที่เทียนธารา
               มีตะกร้าผักขายไว้ให้อาหารน้องๆ ตะกร้าละ 20 บาท
               น้องห่านไม่ตื่นคนและไม่กลัวคนเลย
             </p>
-            <img src={TienBeachChonburi14}></img>
-            <img src={TienBeachChonburi15}></img>
+            <img alt="img" src={TienBeachChonburi14}></img>
+            <img alt="img" src={TienBeachChonburi15}></img>
           </div>
         </div>
         <div className="TienBeachChonburi-location">
