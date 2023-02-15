@@ -43,6 +43,9 @@ export default function ShoppingCart() {
 
   return (
     <div className="container-ShoppingCart-all">
+      <h1 style={{ textAlign: "center", fontSize: "2rem" }}>
+        ตะกร้าสินค้าของคุณ
+      </h1>
       {baskets.map((el, idx) => {
         return (
           <ShoppingList

@@ -31,10 +31,10 @@
 }
 .col-form .form-container input {
   border-radius: 8px;
-  border: 1px solid #dddfe2;
   color: #1d2129;
   padding: 0 8px;
   outline: none;
+  border: 1px solid silver;
 }
 
 .col-form .form-container input,
@@ -71,12 +71,14 @@
   font-size: 14px;
   text-decoration: none;
   padding: 10px 0 20px;
-  border-bottom: 1px solid #dadde1;
 }
 .col-form .form-container a:hover {
   text-decoration: underline;
 }
-.col-form .form-container .btn-new {
+.box-btn-newaccount {
+  margin-right: 180px;
+}
+.btn-newaccount {
   background-color: #42b72a;
   border: none;
   border-radius: 6px;
@@ -88,7 +90,7 @@
   margin-top: 20px;
   cursor: pointer;
 }
-.col-form .form-container .btn-new:hover {
+.btn-newaccount:hover {
   background-color: #389c24;
   color: white;
 }
@@ -156,7 +158,6 @@ body.active-modal {
   width: 500px;
 }
 .register-header {
-  border-bottom: 1px solid silver;
 }
 .register-modal-form {
   margin-top: 10px;
@@ -166,7 +167,6 @@ body.active-modal {
 }
 .register-modal-form input {
   border-radius: 8px;
-  border: 1px solid #dddfe2;
   color: #1d2129;
   padding: 0 8px;
   outline: none;

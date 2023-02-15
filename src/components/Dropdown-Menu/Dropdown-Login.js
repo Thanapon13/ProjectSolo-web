@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Dropdown-Menu.css";
-import { BiLogOut, BiUserCircle } from "react-icons/bi";
 
 import useAuth from "../../hooks/useAuth";
 import Avatar from "../Avatar";
@@ -27,18 +26,10 @@ function DropdownLogin() {
                 {authenticateUser.firstName} {authenticateUser.lastName}
               </h1>
             </div>
-            <DropdownItems
-              link={"/useraccount"}
-              img={<BiUserCircle />}
-              text={"EDIT PROFILE"}
-            />
+            <DropdownItems link={"/useraccount"} text={"EDIT PROFILE"} />
             <a href="/">
               {" "}
-              <DropdownItem
-                link={"/login"}
-                img={BiLogOut}
-                text={"ออกจากระบบ"}
-              />
+              <DropdownItem link={"/login"} text={"ออกจากระบบ"} />
             </a>
           </ul>
         </div>
@@ -51,7 +42,6 @@ function DropdownItem(props) {
   const { logout, authenticateUser } = useAuth();
   return (
     <li className="dropdownItem">
-      <img alt="img" src={props.img}></img>
       <button onClick={logout} href={props.link}>
         {props.text}
       </button>
@@ -62,7 +52,6 @@ function DropdownItem(props) {
 function DropdownItems(props) {
   return (
     <li className="dropdownItem">
-      <img alt="img" src={props.img}></img>
       <a href={props.link}> {props.text} </a>
     </li>
   );

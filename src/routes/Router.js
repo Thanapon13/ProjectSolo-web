@@ -24,7 +24,7 @@ import ProtectedRout from "../features/auth/ProtectedRoute";
 import Header from "../components/Header/Header";
 import Useraccount from "../components/Useraccount/useraccount";
 import ShoppingPage from "../components/shoppingPage/shoppingPage/shoppingPage";
-import ShoppingCart from "../components/shoppingPage/shoppingCart/ShoppingCart";
+import ShoppingCart from "../components/shoppingPage/shoppingCart/shoppingcart";
 import ShoppingShirt from "../components/shoppingPage/shoppingShirt/shoppingShirt";
 
 const router = createBrowserRouter([

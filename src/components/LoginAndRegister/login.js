@@ -65,10 +65,12 @@ export default function LoginPageModal() {
             onChange={e => setPassword(e.target.value)}
           />
           <button className="btn-login">เข้าสู่ระบบ</button>
-          <button onClick={toggleModal} className="btn-new">
+        </form>
+        <div className="box-btn-newaccount">
+          <button onClick={toggleModal} className="btn-newaccount">
             สร้างบัญชีใหม่
           </button>
-        </form>
+        </div>
       </div>
 
       {modal && <RegisterModal toggleModal={toggleModal} />}

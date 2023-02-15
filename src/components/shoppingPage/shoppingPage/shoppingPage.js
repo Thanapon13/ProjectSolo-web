@@ -9,7 +9,7 @@ function ShoppingPage() {
     <div className="container-shoppingPage-all">
       <NavbarShopping />
       <ShoppingShirt />
-      <ShoppingGlass />
+      {/* <ShoppingGlass /> */}
     </div>
   );
 }

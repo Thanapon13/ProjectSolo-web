@@ -25,6 +25,7 @@ const ShoppingList = ({
   const toggleModal = () => {
     setModal(!modal);
   };
+
   return (
     <>
       <div className="container-card-shoppingcart-all">
@@ -78,7 +79,13 @@ const ShoppingList = ({
             <div className="modal">
               <div className="overlay">
                 <div className="modal-community">
-                  <OrderList />
+                  <OrderList
+                    total={basket.quantity * Number(basket.Product.price)}
+                    productname={basket.Product.product_name}
+                    price={basket.Product.price}
+                    quantity={basket.quantity}
+                    image={basket.Product.url}
+                  />
                   <button onClick={toggleModal} className="close-editprofile">
                     X
                   </button>
@@ -86,6 +93,7 @@ const ShoppingList = ({
               </div>
             </div>
           )}
+
           <button className="btn-ok" onClick={toggleModal}>
             ยืนยันการสั่งซื้อ
           </button>

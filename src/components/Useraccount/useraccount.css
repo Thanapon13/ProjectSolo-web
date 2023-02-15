@@ -101,10 +101,10 @@ body.active-modal {
 .Confirm-editprofile:hover {
   background-color: #1568d3;
 }
-.close-editprofile {
+.close-editprofile-modal {
   position: absolute;
-  top: 1px;
-  right: 1px;
+  top: 20px;
+  right: -40px;
   padding: 10px 15px;
   background-color: silver;
   border-radius: 16px;

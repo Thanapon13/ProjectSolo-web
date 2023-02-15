@@ -48,7 +48,7 @@ function Useraccount() {
           <div className="overlay">
             <div className="modal-community">
               <ProfileImageForm />
-              <button onClick={toggleModal} className="close-editprofile">
+              <button onClick={toggleModal} className="close-editprofile-modal">
                 X
               </button>
             </div>
