@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { createOrder } from "../../../apis/cart-api";
 import * as cartService from "../../../apis/cart-api";
 import OrderList from "./orderList";
 import "./ShoppingList.css";
@@ -22,7 +23,10 @@ const ShoppingList = ({
   };
 
   const [modal, setModal] = useState(false);
-  const toggleModal = () => {
+  const toggleModal = async () => {
+    // console.log(basket, "basketssss");
+    const order = await createOrder({ ...basket });
+    console.log(order.data.order, "order");
     setModal(!modal);
   };
 

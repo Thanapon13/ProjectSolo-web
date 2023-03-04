@@ -12,6 +12,7 @@ export default function ShoppingCart() {
     try {
       const baskets = await axios.get("/baskets/getCart");
       setBaskets(baskets.data.getBasket);
+      console.log(baskets.data.getBasket, "baskets.data.getBasket");
     } catch (err) {
       console.log(err);
     }

@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
 import Avatar from "../Avatar";
-import "./ProfileImageForm.css";
 import * as userApi from "../../apis/user-api";
 import useLoading from "../../hooks/useLoading";
+import "./ProfileImageForm.css";
 
 export default function ProfileImageForm() {
   const {
@@ -47,6 +47,7 @@ export default function ProfileImageForm() {
           {file && (
             <>
               <button onClick={handleClickSave}>Save</button>
+
               <button
                 onClick={() => {
                   setFile(null);
