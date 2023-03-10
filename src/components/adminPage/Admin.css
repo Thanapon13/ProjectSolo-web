@@ -1,0 +1,105 @@
+.container-adminAll {
+  margin-top: 200px;
+}
+.adminHeader {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container-card-admin-adminAll {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container-card-shoppingcart-all {
+  margin: auto;
+  width: 100%;
+}
+.Header-admin {
+  display: flex;
+  gap: 100px;
+  background-color: #e4e4e4;
+}
+.Header-admin-box1 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.Header-admin-box2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-adminAll {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn-btnok-btncancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.Header-admin-cardbox1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.Header-admin-cardbox1 {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.Header-admin-cardbox2 {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.admin-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-confirmation-admin {
+  background-color: #0e9f6e;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-confirmation-admin:hover {
+  background-color: #088e61;
+}
+.btn-cancel-admin {
+  background-color: #e60000;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-cancel-admin:hover {
+  background-color: #cd1616;
+}

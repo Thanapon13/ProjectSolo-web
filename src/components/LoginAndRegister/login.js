@@ -3,18 +3,23 @@ import { toast } from "react-toastify";
 import useAuth from "../../hooks/useAuth";
 import RegisterModal from "./RegisterContainerModal";
 import "./login.css";
+import { useNavigate } from "react-router-dom";
 
 export default function LoginPageModal() {
   const [emailOrMobile, setEmailOrMobile] = useState("");
   const [password, setPassword] = useState("");
 
   const { login } = useAuth();
+  const navigate = useNavigate();
 
   const handleSubmitForm = async e => {
     try {
       e.preventDefault();
       await login(emailOrMobile, password);
       toast.success("success login");
+      emailOrMobile === "admin01@gmail.com"
+        ? navigate("/admin")
+        : navigate("/");
     } catch (err) {
       console.log(err);
       toast.error(err.response?.data.message);

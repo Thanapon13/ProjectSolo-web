@@ -6,13 +6,13 @@ import "./shoppingcart.css";
 export default function ShoppingCart() {
   // การดึงข้อมูล product มาใส่ในตะกร้า
   const [baskets, setBaskets] = useState([]);
-  console.log(baskets);
+  // console.log(baskets);
 
   const fetchBasket = async () => {
     try {
       const baskets = await axios.get("/baskets/getCart");
       setBaskets(baskets.data.getBasket);
-      console.log(baskets.data.getBasket, "baskets.data.getBasket");
+      // console.log(baskets.data.getBasket, "baskets.data.getBasket");
     } catch (err) {
       console.log(err);
     }

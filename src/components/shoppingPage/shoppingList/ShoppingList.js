@@ -24,9 +24,6 @@ const ShoppingList = ({
 
   const [modal, setModal] = useState(false);
   const toggleModal = async () => {
-    // console.log(basket, "basketssss");
-    const order = await createOrder({ ...basket });
-    console.log(order.data.order, "order");
     setModal(!modal);
   };
 
@@ -89,6 +86,7 @@ const ShoppingList = ({
                     price={basket.Product.price}
                     quantity={basket.quantity}
                     image={basket.Product.url}
+                    orderData={basket}
                   />
                   <button onClick={toggleModal} className="close-editprofile">
                     X

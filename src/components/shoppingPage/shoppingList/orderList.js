@@ -2,34 +2,26 @@ import { useRef, useState } from "react";
 import * as shipmentApi from "../../../apis/cart-api";
 import Qrcord from "../image/qrcode/qr-code.png";
 import * as createShipmentAPI from "../../../apis/cart-api";
+import { createOrder } from "../../../apis/cart-api";
 
 import "./orderList.css";
 
 export default function OrderList(props) {
   const inputEl = useRef();
-
   const [shippingAddress, setShippingAddress] = useState("");
   const [file, setFile] = useState(null);
   const [orderId, setOderId] = useState("");
-
   const handleSubmitForm = async e => {
     try {
       e.preventDefault();
       const formData = new FormData();
-      console.log(formData, "formData");
-      console.log(shippingAddress, "shippingAddress");
-      console.log(file, "slipUrl");
-      console.log(orderId, "orderIdssss");
       formData.append("slipUrl", file);
-      formData.append("shippingaddress", shippingAddress);
-      // formData.append("orderId", orderId);
+      formData.append("shippingAddress", shippingAddress);
+      let orderId = await createOrder({ id: props.orderData.id });
+      formData.append("orderId", orderId.data.order.id);
+      // console.log(orderId.data.order.id, "orderId");
 
-      // console.log(formData, "formData");
-      // console.log(shippingAddress, "shippingAddress");
-      // console.log(file, "slipUrl");
       await shipmentApi.createShipment(formData);
-      await createShipmentAPI.createShipment("/shipment");
-      // console.log(createShipmentAPI, "createShipmentAPI");
     } catch (err) {
       console.log(err);
     }

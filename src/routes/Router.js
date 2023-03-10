@@ -26,6 +26,8 @@ import Useraccount from "../components/Useraccount/useraccount";
 import ShoppingPage from "../components/shoppingPage/shoppingPage/shoppingPage";
 import ShoppingCart from "../components/shoppingPage/shoppingCart/shoppingcart";
 import ShoppingShirt from "../components/shoppingPage/shoppingShirt/shoppingShirt";
+import { AdminPage } from "../components/adminPage/Admin";
+import AdminProtectedRoute from "../auth/AdminProtectedRoute";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />
+      },
+      {
+        path: "/admin",
+        element: (
+          <AdminProtectedRoute>
+            <AdminPage />
+          </AdminProtectedRoute>
+        )
       },
       {
         path: "/provincePage",

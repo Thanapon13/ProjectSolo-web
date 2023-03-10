@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import DropdownProfile from "../Dropdown-Menu/Dropdown-Menu";
 import { FaSearch, FaShoppingCart } from "react-icons/fa";
 import ShoppingCart from "./img/shopping-cart.png";
@@ -12,6 +12,11 @@ import DropdownLogin from "../Dropdown-Menu/Dropdown-Login";
 
 export default function Header() {
   const { authenticateUser } = useAuth();
+  const navigate = useNavigate();
+
+  const handleAdmin = () => {
+    navigate("/admin");
+  };
 
   return (
     <div className="Header">
