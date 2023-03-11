@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
 }
-.container-card-shoppingcart-all {
+.container-card-admin-adminAll {
   margin: auto;
   width: 100%;
 }
@@ -21,31 +21,23 @@
   background-color: #e4e4e4;
 }
 .Header-admin-box1 {
-  width: 40%;
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 10px;
   justify-content: space-around;
-}
-
-.Header-admin-box2 {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
+  /* outline: 1px solid red; */
 }
 
 .card-adminAll {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .btn-btnok-btncancel {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   gap: 50px;
 }
 
@@ -55,21 +47,17 @@
   border-radius: 5px;
 }
 .Header-admin-cardbox1 {
-  width: 35%;
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 10px;
   justify-content: space-around;
 }
-
-.Header-admin-cardbox2 {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
+.Header-admin-cardbox1-url {
+  width: 20px;
+  /* flex-wrap: wrap; */
+  overflow: hidden;
 }
-
 .admin-btn {
   display: flex;
   justify-content: center;

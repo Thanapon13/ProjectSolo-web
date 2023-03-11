@@ -1,15 +1,15 @@
-import "./Admin.css";
-import adminproduct from "../../assets/Ako.png";
-import * as adminApi from "../../apis/admin-api";
 import { useEffect, useState } from "react";
+import * as adminApi from "../../apis/admin-api";
+import "./Admin.css";
+
 export function AdminPage() {
   const [order, setOrder] = useState([]);
+  // console.log(order, "aaa");
 
   const fetch = async () => {
     try {
       const res = await adminApi.getOrder();
       setOrder(res.data);
-      console.log(res.data, "res.datassssssssssssssss");
     } catch (err) {
       console.log(err);
     }
@@ -17,6 +17,28 @@ export function AdminPage() {
   useEffect(() => {
     fetch();
   }, []);
+
+  const handleConfirmed = async orderId => {
+    try {
+      await adminApi.updateConfirmed({
+        orderId,
+        action: "confirmed"
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  const handleCancelOrde = async orderId => {
+    try {
+      await adminApi.updateCancelOrde({
+        orderId,
+        action: "cancelorder"
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="container-adminAll">
       <div className="adminHeader">
@@ -27,36 +49,51 @@ export function AdminPage() {
           <div className="container-card-admin-adminAll" key={idx}>
             <div className="Header-admin">
               <div className="Header-admin-box1">
-                <h1>Customer </h1>
+                <h1>UserName </h1>
                 <h1>Image</h1>
                 <h1>Order id </h1>
                 <h1>Product Name</h1>
-              </div>
-              <div className="Header-admin-box2">
                 <h1>Quantity</h1>
                 <h1>Price</h1>
                 <h1>Total</h1>
                 <h1>Order Status</h1>
+                <h1>Slip Url</h1>
+                <h1>Address</h1>
               </div>
             </div>
 
             <div className="card-adminAll">
               <div className="Header-admin-cardbox1">
-                <h1>{(el.User.firstName, el.User.lastName)} </h1>
+                <h1>{el.User.firstName}</h1>
                 <img src={el.Product.url} />
                 <h1>{el.id}</h1>
                 <h1>{el.Product.product_name}</h1>
-              </div>
-              <div className="Header-admin-cardbox2">
                 <h1>{el.quantity}</h1>
                 <h1>{el.Product.price}</h1>
                 <h1>{el.Product.price * el.quantity}</h1>
-                <h1>OrderStatuses</h1>
+                <h1>{el.OrderStatuses[0].status}</h1>
+                <div className="Header-admin-cardbox1-url">
+                  <h1>{el.Shipment.slipUrl}</h1>
+                </div>
+                <h1>{el.Shipment.shippingAddress}</h1>
               </div>
             </div>
+
             <div className="admin-btn">
-              <button className="btn-confirmation-admin">confirmed</button>
-              <button className="btn-cancel-admin">cancel order</button>
+              <button
+                className="btn-confirmation-admin"
+                onClick={() => handleConfirmed(el.id)}
+              >
+                confirmed
+              </button>
+              <button
+                className="btn-cancel-admin"
+                onClick={() => handleCancelOrde(el.id)}
+              >
+                cancel order
+              </button>
+
+              <button className="btn-cancel-admin">Delete order</button>
             </div>
           </div>
         ))}

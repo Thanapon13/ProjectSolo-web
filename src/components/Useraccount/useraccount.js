@@ -1,13 +1,63 @@
 import React, { useState } from "react";
 import EditProfile from "../../assets/blank.png";
+import useAuth from "../../hooks/useAuth";
 import ProfileImageForm from "./ProfileImageForm";
+import * as userApi from "../../apis/user-api";
+import { toast } from "react-toastify";
+import validateProfile, {
+  validateEditProfile
+} from "../validators/validate-profile";
 
 import "./useraccount.css";
 
 function Useraccount() {
+  const [error, setError] = useState({});
+  const [fname, setFname] = useState("");
+  const [lname, setLname] = useState("");
+  const [lineToken, setLineToken] = useState("");
   const [modal, setModal] = useState(false);
+  console.log(fname, "fname");
+  console.log(lname, "lname");
+  console.log(lineToken, "lineToken");
+
   const toggleModal = () => {
     setModal(!modal);
+  };
+
+  const input = {
+    firstName: fname,
+    lastName: lname,
+    lineToken: lineToken
+  };
+  const handleClickSave = async () => {
+    try {
+      const result = validateEditProfile(input);
+      console.log(result, "---validateEditProfile---");
+      if (result) {
+        setError(result);
+      } else {
+        console.log("no error");
+        setError({});
+
+        try {
+          await userApi.updateUserInfo(input);
+        } catch (err) {
+          console.log(err);
+        }
+      }
+    } catch (err) {
+      console.log(err.response?.data.message);
+    }
+  };
+
+  const handleChangeFname = async e => {
+    setFname(e.target.value);
+  };
+  const handleChangeLname = async e => {
+    setLname(e.target.value);
+  };
+  const handleChangeLineToken = async e => {
+    setLineToken(e.target.value);
   };
 
   return (
@@ -28,6 +78,7 @@ function Useraccount() {
               className="editprofile-input"
               type="text"
               placeholder="Enter First Name"
+              onChange={e => handleChangeFname(e)}
             />
           </div>
 
@@ -36,11 +87,26 @@ function Useraccount() {
             <input
               className="editprofile-input"
               type="text"
+              onChange={e => handleChangeLname(e)}
               placeholder="Enter Last Name"
             />
           </div>
-          <button className="Confirm-editprofile">ยืนยันการแก้ไข</button>
+
+          <div className="editprofile-form-all">
+            <h3>Line Token</h3>
+            <input
+              className="editprofile-input"
+              type="text"
+              onChange={e => handleChangeLineToken(e)}
+              placeholder="line Token"
+            />
+          </div>
         </form>
+        <div className="btn-Confirm-editprofile">
+          <button className="Confirm-editprofile" onClick={handleClickSave}>
+            ยืนยันการแก้ไข
+          </button>
+        </div>
       </div>
 
       {modal && (

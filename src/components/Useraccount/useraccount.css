@@ -88,6 +88,11 @@ body.active-modal {
   max-width: 600px;
   min-width: 300px;
 }
+.btn-Confirm-editprofile {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .Confirm-editprofile {
   background-color: #1877f2;
   border: none;
