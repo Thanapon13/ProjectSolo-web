@@ -65,7 +65,7 @@ export function AdminPage() {
             <div className="card-adminAll">
               <div className="Header-admin-cardbox1">
                 <h1>{el.User.firstName}</h1>
-                <img src={el.Product.url} />
+                <img src={el.Product.url} alt="img" />
                 <h1>{el.id}</h1>
                 <h1>{el.Product.product_name}</h1>
                 <h1>{el.quantity}</h1>
@@ -92,7 +92,6 @@ export function AdminPage() {
               >
                 cancel order
               </button>
-
               <button className="btn-cancel-admin">Delete order</button>
             </div>
           </div>
