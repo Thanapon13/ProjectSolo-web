@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import * as adminApi from "../../apis/admin-api";
+import { BsXCircleFill } from "react-icons/bs";
 import "./Admin.css";
 
 export function AdminPage() {
   const [order, setOrder] = useState([]);
-  // console.log(order, "aaa");
+  console.log(order, "orderssssssssssss");
 
   const fetch = async () => {
     try {
@@ -28,6 +29,7 @@ export function AdminPage() {
       console.log(err);
     }
   };
+
   const handleCancelOrde = async orderId => {
     try {
       await adminApi.updateCancelOrde({
@@ -47,6 +49,9 @@ export function AdminPage() {
       <>
         {order.map((el, idx) => (
           <div className="container-card-admin-adminAll" key={idx}>
+            <div className="admin-btnclose">
+              <BsXCircleFill className="btn-btnclose" />
+            </div>
             <div className="Header-admin">
               <div className="Header-admin-box1">
                 <h1>UserName </h1>
@@ -92,7 +97,6 @@ export function AdminPage() {
               >
                 cancel order
               </button>
-              <button className="btn-cancel-admin">Delete order</button>
             </div>
           </div>
         ))}

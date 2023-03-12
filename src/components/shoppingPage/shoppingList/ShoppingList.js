@@ -96,21 +96,23 @@ const ShoppingList = ({
             </div>
           )}
 
-          <button className="btn-ok" onClick={toggleModal}>
-            ยืนยันการสั่งซื้อ
-          </button>
-
-          {removeEl && (
-            <button
-              className="btn-cancel"
-              onClick={async () => {
-                await handleDeleteProduct(basket.Product.id);
-                await fetchBasket();
-              }}
-            >
-              ยกเลิก
+          <div className="btn-btnok-btncancel">
+            <button className="btn-ok" onClick={toggleModal}>
+              ยืนยันการสั่งซื้อ
             </button>
-          )}
+
+            {removeEl && (
+              <button
+                className="btn-cancel"
+                onClick={async () => {
+                  await handleDeleteProduct(basket.Product.id);
+                  await fetchBasket();
+                }}
+              >
+                ยกเลิก
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </>

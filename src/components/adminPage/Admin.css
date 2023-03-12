@@ -1,6 +1,15 @@
 .container-adminAll {
   margin-top: 200px;
 }
+.admin-btnclose {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-btnclose {
+  font-size: 20px;
+}
 .adminHeader {
   text-align: center;
   font-size: 2rem;
