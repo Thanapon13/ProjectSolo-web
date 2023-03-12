@@ -18,7 +18,7 @@ export function AdminPage() {
   };
   useEffect(() => {
     fetch();
-  }, [order]);
+  }, []);
 
   // Delete Product
   const handleDeleteOrderAdmin = async orderId => {

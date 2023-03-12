@@ -24,7 +24,7 @@ export default function HistoryOrder() {
     <div className="container-all-history">
       <div className="container-content-all">
         <div className="user-order-header">
-          <h1>Order</h1>
+          <h1>Your Order History</h1>
         </div>
         <div className="container-card-order-all">
           {userorderHistory.map((el, idx) => (

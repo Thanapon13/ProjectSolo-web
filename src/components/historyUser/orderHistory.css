@@ -1,4 +1,6 @@
 .container-all-history {
+  display: flex;
+  justify-content: center;
   margin: auto;
   margin-top: 200px;
 }
@@ -7,6 +9,7 @@
 .user-order-header {
   font-size: 2rem;
   font-weight: bold;
+  border-bottom: 1px solid silver;
 }
 .container-card-order-all {
   width: 100%;
