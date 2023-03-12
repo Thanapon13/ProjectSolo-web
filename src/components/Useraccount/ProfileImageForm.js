@@ -58,7 +58,7 @@ export default function ProfileImageForm() {
               </button>
             </>
           )}
-          <button onClick={() => inputEl.current.click()}>Edit</button>
+          <button onClick={() => inputEl.current.click()}> Edit </button>
         </div>
         <div
           className="img-EditProfile"

@@ -1,0 +1,32 @@
+.container-all-history {
+  margin: auto;
+  margin-top: 200px;
+}
+.container-content-all {
+}
+.user-order-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container-card-order-all {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.user-card-order-all {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+.card-order-left {
+  width: 150px;
+}
+.card-order-riht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

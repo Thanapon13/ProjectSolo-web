@@ -27,6 +27,7 @@ function DropdownLogin() {
               </h1>
             </div>
             <DropdownItems link={"/useraccount"} text={"EDIT PROFILE"} />
+            <DropdownItems link={"/historyorder"} text={"History Order "} />
             <a href="/">
               {" "}
               <DropdownItem link={"/login"} text={"ออกจากระบบ"} />

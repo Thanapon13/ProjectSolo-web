@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import * as adminApi from "../../apis/admin-api";
+import * as adminRemoveApi from "../../apis/admin-api";
 import { BsXCircleFill } from "react-icons/bs";
 import "./Admin.css";
 
@@ -17,8 +18,14 @@ export function AdminPage() {
   };
   useEffect(() => {
     fetch();
-  }, []);
+  }, [order]);
 
+  // Delete Product
+  const handleDeleteOrderAdmin = async orderId => {
+    await adminRemoveApi.deleteOrderAdmin(`${orderId}`);
+  };
+
+  // ------------------------
   const handleConfirmed = async orderId => {
     try {
       await adminApi.updateConfirmed({
@@ -49,7 +56,11 @@ export function AdminPage() {
         {order.map((el, idx) => (
           <div className="container-card-admin-adminAll" key={idx}>
             <div className="adminOrder-btn-colse">
-              <button>
+              <button
+                onClick={() => {
+                  handleDeleteOrderAdmin(el.id);
+                }}
+              >
                 <BsXCircleFill />
               </button>
             </div>

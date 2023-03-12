@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as shipmentApi from "../../../apis/cart-api";
 import Qrcord from "../image/qrcode/qr-code.png";
 import * as createShipmentAPI from "../../../apis/cart-api";

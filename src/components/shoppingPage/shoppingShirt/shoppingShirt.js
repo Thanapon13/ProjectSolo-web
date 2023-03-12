@@ -20,8 +20,8 @@ export default function ShoppingShirt() {
 
   useEffect(() => {
     fetchProduct();
-  }, []);
-  console.log(products, "AAA");
+  }, [products]);
+  // console.log(products, "AAA");
 
   return (
     <div className="container-shoppingShirt-all">
