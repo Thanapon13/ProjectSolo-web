@@ -19,8 +19,8 @@ export default function OrderList(props) {
       formData.append("shippingAddress", shippingAddress);
       let orderId = await createOrder({ id: props.orderData.id });
       formData.append("orderId", orderId.data.order.id);
-
-      // console.log(orderId.data.order.id, "orderId");
+      console.log(orderId.data, "orderId");
+      // let orderStatus = await createOrder({id:props.orderData})
 
       await shipmentApi.createShipment(formData);
     } catch (err) {

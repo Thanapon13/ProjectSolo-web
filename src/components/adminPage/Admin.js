@@ -76,7 +76,7 @@ export function AdminPage() {
                 <h1>{el.quantity}</h1>
                 <h1>{el.Product.price}</h1>
                 <h1>{el.Product.price * el.quantity}</h1>
-                <h1>{el.OrderStatuses[0].status}</h1>
+                {/* <h1>{el.OrderStatuses[0].status}</h1> */}
                 <div className="Header-admin-cardbox1-url">
                   <h1>{el.Shipment.slipUrl}</h1>
                 </div>
