@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import * as adminApi from "../../apis/admin-api";
+import { BsXCircleFill } from "react-icons/bs";
 import "./Admin.css";
 
 export function AdminPage() {
@@ -47,6 +48,11 @@ export function AdminPage() {
       <>
         {order.map((el, idx) => (
           <div className="container-card-admin-adminAll" key={idx}>
+            <div className="adminOrder-btn-colse">
+              <button>
+                <BsXCircleFill />
+              </button>
+            </div>
             <div className="Header-admin">
               <div className="Header-admin-box1">
                 <h1>UserName </h1>
@@ -92,7 +98,6 @@ export function AdminPage() {
               >
                 cancel order
               </button>
-              <button className="btn-cancel-admin">Delete order</button>
             </div>
           </div>
         ))}
