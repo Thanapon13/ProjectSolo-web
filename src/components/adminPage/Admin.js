@@ -3,8 +3,10 @@ import * as adminApi from "../../apis/admin-api";
 import * as adminRemoveApi from "../../apis/admin-api";
 import { BsXCircleFill } from "react-icons/bs";
 import "./Admin.css";
+import { useNavigate } from "react-router-dom";
 
 export function AdminPage() {
+  const navigate = useNavigate();
   const [order, setOrder] = useState([]);
   // console.log(order, "aaa");
 
@@ -23,6 +25,7 @@ export function AdminPage() {
   // Delete Product
   const handleDeleteOrderAdmin = async orderId => {
     await adminRemoveApi.deleteOrderAdmin(`${orderId}`);
+    navigate(0);
   };
 
   // ------------------------
@@ -32,6 +35,7 @@ export function AdminPage() {
         orderId,
         action: "confirmed"
       });
+      navigate(0);
     } catch (err) {
       console.log(err);
     }
@@ -42,6 +46,7 @@ export function AdminPage() {
         orderId,
         action: "cancelorder"
       });
+      navigate(0);
     } catch (err) {
       console.log(err);
     }
@@ -90,7 +95,7 @@ export function AdminPage() {
                 <h1>{el.Product.price * el.quantity}</h1>
                 <h1>{el.OrderStatuses[0].status}</h1>
                 <div className="Header-admin-cardbox1-url">
-                  <h1>{el.Shipment.slipUrl}</h1>
+                  <h1>{el.Shipment.slipUrl ? el.Shipment.slipUrl : ""}</h1>
                 </div>
                 <h1>{el.Shipment.shippingAddress}</h1>
               </div>

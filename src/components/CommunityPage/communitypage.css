@@ -1,5 +1,7 @@
 .container-communitypage {
-  background-color: rebeccapurple;
+  background-color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 .container-startPost {
   display: flex;

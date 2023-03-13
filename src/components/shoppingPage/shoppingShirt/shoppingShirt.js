@@ -20,7 +20,7 @@ export default function ShoppingShirt() {
 
   useEffect(() => {
     fetchProduct();
-  }, [products]);
+  }, []);
   // console.log(products, "AAA");
 
   return (
@@ -32,8 +32,8 @@ export default function ShoppingShirt() {
               <div key={product.id} className="card-shoppingShirt">
                 <img alt="img" src={product.url}></img>
                 <div className="shoppingShirt-content">
-                  <h1>{product.product_name}</h1>
-                  <p>{product.price} บาท</p>
+                  <h1>ชื่อ: {product.product_name}</h1>
+                  <p>ราคา: {product.price} บาท</p>
                 </div>
                 <div className="btn-shoppingShirt">
                   <button onClick={() => handleAddCart(product.id)}>

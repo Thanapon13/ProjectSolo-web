@@ -4,8 +4,10 @@ import Avatar from "../Avatar";
 import * as userApi from "../../apis/user-api";
 import useLoading from "../../hooks/useLoading";
 import "./ProfileImageForm.css";
+import { useNavigate } from "react-router-dom";
 
 export default function ProfileImageForm() {
+  const navigate = useNavigate();
   const {
     authenticateUser: { profileImage }
   } = useAuth();
@@ -21,6 +23,7 @@ export default function ProfileImageForm() {
     const formDate = new FormData();
     formDate.append("profileImage", file);
     await userApi.updateProfile(formDate);
+    navigate(0);
     stopLoading();
   };
 

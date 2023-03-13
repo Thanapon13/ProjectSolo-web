@@ -5,8 +5,10 @@ import * as createShipmentAPI from "../../../apis/cart-api";
 import { createOrder } from "../../../apis/cart-api";
 
 import "./orderList.css";
+import { useNavigate } from "react-router-dom";
 
 export default function OrderList(props) {
+  const navigate = useNavigate();
   const inputEl = useRef();
   const [shippingAddress, setShippingAddress] = useState("");
   const [file, setFile] = useState(null);
@@ -19,10 +21,8 @@ export default function OrderList(props) {
       formData.append("shippingAddress", shippingAddress);
       let orderId = await createOrder({ id: props.orderData.id });
       formData.append("orderId", orderId.data.order.id);
-
-      // console.log(orderId.data.order.id, "orderId");
-
       await shipmentApi.createShipment(formData);
+      navigate(0);
     } catch (err) {
       console.log(err);
     }

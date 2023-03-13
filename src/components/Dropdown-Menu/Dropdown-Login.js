@@ -27,9 +27,10 @@ function DropdownLogin() {
               </h1>
             </div>
             <DropdownItems link={"/useraccount"} text={"EDIT PROFILE"} />
-            <DropdownItems link={"/historyorder"} text={"History Order "} />
+            {authenticateUser.isAdmin === false ? (
+              <DropdownItems link={"/historyorder"} text={"History Order "} />
+            ) : null}
             <a href="/">
-              {" "}
               <DropdownItem link={"/login"} text={"ออกจากระบบ"} />
             </a>
           </ul>
@@ -40,7 +41,7 @@ function DropdownLogin() {
 }
 
 function DropdownItem(props) {
-  const { logout, authenticateUser } = useAuth();
+  const { logout } = useAuth();
   return (
     <li className="dropdownItem">
       <button onClick={logout} href={props.link}>

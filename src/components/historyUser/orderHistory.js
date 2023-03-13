@@ -5,7 +5,8 @@ import { useEffect, useState } from "react";
 
 export default function HistoryOrder() {
   const [userorderHistory, setUserorderHistory] = useState([]);
-  console.log(userorderHistory, "userorder");
+
+  // console.log(userorderHistory, "userorder");
 
   const fetchOrderUser = async () => {
     try {
@@ -47,8 +48,12 @@ export default function HistoryOrder() {
                   <h1>{el.quantity}</h1>
                   <h1>{el.Product.price}</h1>
                   <h1>{el.Product.price * el.quantity}</h1>
-                  <h1>{el.Shipment.slipUrl}</h1>
-                  <h1>{el.Shipment.shippingAddress}</h1>
+                  <h1>{el.Shipment.slipUrl ? el.Shipment.slipUrl : ""}</h1>
+                  <h1>
+                    {el.Shipment.shippingAddress
+                      ? el.Shipment.shippingAddress
+                      : ""}
+                  </h1>
                   <h1>{el.OrderStatuses[0].status}</h1>
                 </div>
               </div>

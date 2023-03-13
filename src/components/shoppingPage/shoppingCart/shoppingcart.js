@@ -20,7 +20,7 @@ export default function ShoppingCart() {
 
   useEffect(() => {
     fetchBasket();
-  }, [baskets]);
+  }, []);
   //-----------------------
 
   // Delete Product
