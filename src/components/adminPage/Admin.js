@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import * as adminApi from "../../apis/admin-api";
-import { BsXCircleFill } from "react-icons/bs";
 import "./Admin.css";
+import { useNavigate } from "react-router-dom";
 
 export function AdminPage() {
+  const navigate = useNavigate();
   const [order, setOrder] = useState([]);
   console.log(order, "orderssssssssssss");
 
@@ -19,12 +20,20 @@ export function AdminPage() {
     fetch();
   }, []);
 
+  // Delete Product
+  const handleDeleteOrderAdmin = async orderId => {
+    await adminRemoveApi.deleteOrderAdmin(`${orderId}`);
+    navigate(0);
+  };
+
+  // ------------------------
   const handleConfirmed = async orderId => {
     try {
       await adminApi.updateConfirmed({
         orderId,
         action: "confirmed"
       });
+      navigate(0);
     } catch (err) {
       console.log(err);
     }
@@ -36,6 +45,7 @@ export function AdminPage() {
         orderId,
         action: "cancelorder"
       });
+      navigate(0);
     } catch (err) {
       console.log(err);
     }
@@ -49,9 +59,6 @@ export function AdminPage() {
       <>
         {order.map((el, idx) => (
           <div className="container-card-admin-adminAll" key={idx}>
-            <div className="admin-btnclose">
-              <BsXCircleFill className="btn-btnclose" />
-            </div>
             <div className="Header-admin">
               <div className="Header-admin-box1">
                 <h1>UserName </h1>
@@ -78,7 +85,7 @@ export function AdminPage() {
                 <h1>{el.Product.price * el.quantity}</h1>
                 {/* <h1>{el.OrderStatuses[0].status}</h1> */}
                 <div className="Header-admin-cardbox1-url">
-                  <h1>{el.Shipment.slipUrl}</h1>
+                  <h1>{el.Shipment.slipUrl ? el.Shipment.slipUrl : ""}</h1>
                 </div>
                 <h1>{el.Shipment.shippingAddress}</h1>
               </div>

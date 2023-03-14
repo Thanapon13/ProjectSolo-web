@@ -6,3 +6,5 @@ export const updateConfirmed = input =>
   axios.patch("/admin/statusUpdateConfirmed", input);
 export const updateCancelOrde = input =>
   axios.patch("/admin/statusUpdateCancelOrder", input);
+
+export const deleteOrderAdmin = orderId => axios.delete(`/admin/${orderId}`);

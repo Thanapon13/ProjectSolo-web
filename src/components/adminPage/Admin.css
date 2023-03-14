@@ -1,13 +1,10 @@
 .container-adminAll {
   margin-top: 200px;
 }
-.admin-btnclose {
+.adminOrder-btn-colse {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
-  cursor: pointer;
-}
-.btn-btnclose {
   font-size: 20px;
 }
 .adminHeader {

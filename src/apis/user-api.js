@@ -4,8 +4,10 @@ export const getProfileUser = ProfileUserId =>
   axios.get("/users" + ProfileUserId);
 
 export const updateUserInfo = input => {
-  console.log(input, "aaaadddddddddddddda");
+  // console.log(input, "aaaadddddddddddddda");
   return axios.patch("/users/info", input);
 };
+
+export const getOrderUser = () => axios.get("/users/userOrder");
 
 export const updateProfile = formData => axios.patch("/users", formData);

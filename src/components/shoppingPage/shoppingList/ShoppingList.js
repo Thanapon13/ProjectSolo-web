@@ -50,7 +50,6 @@ const ShoppingList = ({
             <div className="box1-content">
               <div className="name-category">
                 <h1>ชื่อสินค้า: {basket.Product.product_name}</h1>
-                <h1>ปะเภท:</h1>
               </div>
             </div>
           </div>

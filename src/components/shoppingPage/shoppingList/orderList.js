@@ -1,12 +1,14 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import * as shipmentApi from "../../../apis/cart-api";
 import Qrcord from "../image/qrcode/qr-code.png";
 import * as createShipmentAPI from "../../../apis/cart-api";
 import { createOrder } from "../../../apis/cart-api";
 
 import "./orderList.css";
+import { useNavigate } from "react-router-dom";
 
 export default function OrderList(props) {
+  const navigate = useNavigate();
   const inputEl = useRef();
   const [shippingAddress, setShippingAddress] = useState("");
   const [file, setFile] = useState(null);
@@ -23,6 +25,7 @@ export default function OrderList(props) {
       // let orderStatus = await createOrder({id:props.orderData})
 
       await shipmentApi.createShipment(formData);
+      navigate(0);
     } catch (err) {
       console.log(err);
     }

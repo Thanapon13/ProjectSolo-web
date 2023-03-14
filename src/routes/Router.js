@@ -28,6 +28,7 @@ import ShoppingCart from "../components/shoppingPage/shoppingCart/shoppingcart";
 import ShoppingShirt from "../components/shoppingPage/shoppingShirt/shoppingShirt";
 import { AdminPage } from "../components/adminPage/Admin";
 import AdminProtectedRoute from "../auth/AdminProtectedRoute";
+import HistoryOrder from "../components/historyUser/orderHistory";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             <AdminPage />
           </AdminProtectedRoute>
         )
+      },
+      {
+        path: "/historyorder",
+        element: <HistoryOrder />
       },
       {
         path: "/provincePage",

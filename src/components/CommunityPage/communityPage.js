@@ -18,6 +18,7 @@ function CommunityPage() {
   }
   return (
     <div className="container-communitypage ">
+      รออัปเดตในอนาคต ถ้าว่าง
       <div className="container-startPost">
         <div className="card-startPost">
           <div className="card-startPost-top">
@@ -51,7 +52,6 @@ function CommunityPage() {
             </button>
           </div>
         </div>
-
         {modal && (
           <div className="modal">
             <div className="overlay">
